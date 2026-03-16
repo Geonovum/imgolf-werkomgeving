@@ -10,7 +10,7 @@
         "target": [
           ".sidelabel"
         ],
-        "html": "<div class=\"sidelabel\">Geonovum Handreiking - Document</div>",
+        "html": "<div class=\"sidelabel\">Geonovum Praktijkrichtlijn - Document</div>",
         "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.98 (foreground color: #ffffff, background color: #80cc28, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
       }
     ]
@@ -24,7 +24,7 @@
     "nodes": [
       {
         "target": [
-          ".hljs"
+          ".xml"
         ],
         "html": "<code aria-busy=\"false\" class=\"hljs xml\">",
         "failureSummary": "Fix any of the following:\n  Element should have focusable content\n  Element should be focusable"
