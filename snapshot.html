@@ -1386,7 +1386,7 @@ ul.index code{color:inherit}
 }</script>
 <link rel="stylesheet" href="https://tools.geostandaarden.nl/respec/style/base.css"></head>
 
-<body class="h-entry toc-inline"><div class="head">
+<body class="h-entry"><div class="head">
     <a class="logo" href="https://www.geonovum.nl/geo-standaarden"><img alt="Geonovum" height="67" id="Geonovum" src="https://docs.geostandaarden.nl/media/Geonovum.svg" width="132">
   </a> <h1 id="title" class="title">IMGolf</h1>
     
@@ -1438,7 +1438,7 @@ ul.index code{color:inherit}
 
 <section id="abstract" class="introductory"><h2>Samenvatting</h2><p>TODO: vul in abstract.md een abstract in.</p>
 </section>
-<section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is een document zonder officiële status.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#niet-normatieve-deel"><bdi class="secno">1. </bdi>Niet-normatieve deel</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#een-subparagraaf"><bdi class="secno">1.1 </bdi>Een subparagraaf</a></li></ol></li><li class="tocline"><a class="tocxref" href="#meer-inhoud"><bdi class="secno">2. </bdi>Meer inhoud</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#definities"><bdi class="secno">2.1 </bdi>Definities</a></li><li class="tocline"><a class="tocxref" href="#afbeeldingen"><bdi class="secno">2.2 </bdi>Afbeeldingen</a></li><li class="tocline"><a class="tocxref" href="#referenties"><bdi class="secno">2.3 </bdi>Referenties</a></li><li class="tocline"><a class="tocxref" href="#optioneel"><bdi class="secno">2.4 </bdi>Optioneel</a></li></ol></li><li class="tocline"><a class="tocxref" href="#mermaid-diagram"><bdi class="secno">3. </bdi>Mermaid diagram</a></li><li class="tocline"><a class="tocxref" href="#conformance"><bdi class="secno">4. </bdi>Conformiteit</a></li><li class="tocline"><a class="tocxref" href="#references"><bdi class="secno">A. </bdi>Referenties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#normatieve-referenties"><bdi class="secno">A.1 </bdi>Normatieve referenties</a></li></ol></li></ol></nav>
+<section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is een document zonder officiële status.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#niet-normatieve-deel"><bdi class="secno">1. </bdi>Niet-normatieve deel</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#een-subparagraaf"><bdi class="secno">1.1 </bdi>Een subparagraaf</a></li></ol></li><li class="tocline"><a class="tocxref" href="#cat"><bdi class="secno">2. </bdi>Gegevensdefinitie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#global_packages"><bdi class="secno">2.1 </bdi>Model   IMGolf</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#EAID_97CD9DFA_6A83_4cfa_8B08_23C0B4353FFA"><bdi class="secno">2.1.1 </bdi>   IMGolf - detail</a></li><li class="tocline"><a class="tocxref" href="#EAID_B3E2586B_2ECB_48a7_A0B8_8DDF159D46D4"><bdi class="secno">2.1.2 </bdi>   IMGolf-registratiegegevens - detail</a></li></ol></li><li class="tocline"><a class="tocxref" href="#global_package_Golfbaan"><bdi class="secno">2.2 </bdi>Domein   Golfbaan</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#objecttypen"><bdi class="secno">2.2.1 </bdi>Objecttypen   </a><ol class="toc"><li class="tocline"><a class="tocxref" href="#global_class_Golfbaan_Green"><bdi class="secno">2.2.1.1 </bdi>   Green</a></li><li class="tocline"><a class="tocxref" href="#global_class_Golfbaan_Registratie"><bdi class="secno">2.2.1.2 </bdi>   Registratie</a></li><li class="tocline"><a class="tocxref" href="#global_class_Golfbaan_Parcours"><bdi class="secno">2.2.1.3 </bdi>   Parcours</a></li><li class="tocline"><a class="tocxref" href="#global_class_Golfbaan_Golfbaan"><bdi class="secno">2.2.1.4 </bdi>   Golfbaan</a></li><li class="tocline"><a class="tocxref" href="#global_class_Golfbaan_IMGolfobject"><bdi class="secno">2.2.1.5 </bdi>   IMGolf-object</a></li><li class="tocline"><a class="tocxref" href="#global_class_Golfbaan_Hindernis"><bdi class="secno">2.2.1.6 </bdi>   Hindernis</a></li><li class="tocline"><a class="tocxref" href="#global_class_Golfbaan_ParcoursDeel"><bdi class="secno">2.2.1.7 </bdi>   Parcours­Deel</a></li><li class="tocline"><a class="tocxref" href="#global_class_Golfbaan_Tee"><bdi class="secno">2.2.1.8 </bdi>   Tee</a></li><li class="tocline"><a class="tocxref" href="#global_class_Golfbaan_Hole"><bdi class="secno">2.2.1.9 </bdi>   Hole</a></li></ol></li><li class="tocline"><a class="tocxref" href="#keuzen"><bdi class="secno">2.2.2 </bdi>Keuzen   </a><ol class="toc"><li class="tocline"><a class="tocxref" href="#global_class_Golfbaan_VlakMultivlak"><bdi class="secno">2.2.2.1 </bdi>   Vlak­Multivlak</a></li></ol></li><li class="tocline"><a class="tocxref" href="#gegevensgroeptypen"><bdi class="secno">2.2.3 </bdi>Gegevensgroeptypen   </a><ol class="toc"><li class="tocline"><a class="tocxref" href="#global_class_Golfbaan_ToegangGolfbaan"><bdi class="secno">2.2.3.1 </bdi>Gegevensgroep   Toegang­Golfbaan</a></li></ol></li><li class="tocline"><a class="tocxref" href="#attribuut-en-relatiesoort-details"><bdi class="secno">2.2.4 </bdi>Attribuut- en relatiesoort details  </a><ol class="toc"><li class="tocline"><a class="tocxref" href="#objecttype-details"><bdi class="secno">2.2.4.1 </bdi>Objecttype details  </a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_class_Golfbaan_Registratie"><bdi class="secno">2.2.4.1.1 </bdi>   Registratie</a></li><li class="tocline"><a class="tocxref" href="#detail_class_Golfbaan_Parcours"><bdi class="secno">2.2.4.1.2 </bdi>   Parcours</a></li><li class="tocline"><a class="tocxref" href="#detail_class_Golfbaan_Golfbaan"><bdi class="secno">2.2.4.1.3 </bdi>   Golfbaan</a></li><li class="tocline"><a class="tocxref" href="#detail_class_Golfbaan_IMGolfobject"><bdi class="secno">2.2.4.1.4 </bdi>   IMGolf-object</a></li><li class="tocline"><a class="tocxref" href="#detail_class_Golfbaan_Hindernis"><bdi class="secno">2.2.4.1.5 </bdi>   Hindernis</a></li><li class="tocline"><a class="tocxref" href="#detail_class_Golfbaan_ParcoursDeel"><bdi class="secno">2.2.4.1.6 </bdi>   Parcours­Deel</a></li><li class="tocline"><a class="tocxref" href="#detail_class_Golfbaan_Tee"><bdi class="secno">2.2.4.1.7 </bdi>   Tee</a></li><li class="tocline"><a class="tocxref" href="#detail_class_Golfbaan_Hole"><bdi class="secno">2.2.4.1.8 </bdi>   Hole</a></li></ol></li><li class="tocline"><a class="tocxref" href="#gegevensgroeptype-details"><bdi class="secno">2.2.4.2 </bdi>Gegevensgroeptype details  </a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_class_Golfbaan_ToegangGolfbaan"><bdi class="secno">2.2.4.2.1 </bdi>Gegevensgroeptype   Toegang­Golfbaan</a></li></ol></li><li class="tocline"><a class="tocxref" href="#keuze"><bdi class="secno">2.2.4.3 </bdi>Keuze  </a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_class_Golfbaan_VlakMultivlak"><bdi class="secno">2.2.4.3.1 </bdi>Keuze   Vlak­Multivlak</a></li></ol></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#global_package_Waardelijsten"><bdi class="secno">2.3 </bdi>Domein   Waardelijsten</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#enumeraties"><bdi class="secno">2.3.1 </bdi>Enumeraties   </a><ol class="toc"><li class="tocline"><a class="tocxref" href="#global_class_Waardelijsten_TypeHindernis"><bdi class="secno">2.3.1.1 </bdi>Enumeratie   Type­Hindernis</a></li><li class="tocline"><a class="tocxref" href="#global_class_Waardelijsten_TypeParcoursDeel"><bdi class="secno">2.3.1.2 </bdi>Enumeratie   Type­Parcours­Deel</a></li><li class="tocline"><a class="tocxref" href="#global_class_Waardelijsten_TypeGolfbaan"><bdi class="secno">2.3.1.3 </bdi>Enumeratie   Type­Golfbaan</a></li></ol></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#lis"><bdi class="secno">3. </bdi>Inhoud van waardelijsten</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#enumeratie-inhoud"><bdi class="secno">3.1 </bdi>Enumeratie inhoud   </a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_class_Waardelijsten_TypeHindernis"><bdi class="secno">3.1.1 </bdi>Enumeratie details  Type­Hindernis</a></li><li class="tocline"><a class="tocxref" href="#detail_class_Waardelijsten_TypeParcoursDeel"><bdi class="secno">3.1.2 </bdi>Enumeratie details  Type­Parcours­Deel</a></li><li class="tocline"><a class="tocxref" href="#detail_class_Waardelijsten_TypeGolfbaan"><bdi class="secno">3.1.3 </bdi>Enumeratie details  Type­Golfbaan</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#meer-inhoud"><bdi class="secno">4. </bdi>Meer inhoud</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#definities"><bdi class="secno">4.1 </bdi>Definities</a></li><li class="tocline"><a class="tocxref" href="#afbeeldingen"><bdi class="secno">4.2 </bdi>Afbeeldingen</a></li><li class="tocline"><a class="tocxref" href="#referenties"><bdi class="secno">4.3 </bdi>Referenties</a></li><li class="tocline"><a class="tocxref" href="#optioneel"><bdi class="secno">4.4 </bdi>Optioneel</a></li></ol></li><li class="tocline"><a class="tocxref" href="#mermaid-diagram"><bdi class="secno">5. </bdi>Mermaid diagram</a></li><li class="tocline"><a class="tocxref" href="#conformance"><bdi class="secno">6. </bdi>Conformiteit</a></li><li class="tocline"><a class="tocxref" href="#references"><bdi class="secno">A. </bdi>Referenties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#normatieve-referenties"><bdi class="secno">A.1 </bdi>Normatieve referenties</a></li></ol></li></ol></nav>
 
 
 <section class="informative" id="niet-normatieve-deel"><div class="header-wrapper"><h2 id="x1-niet-normatieve-deel"><bdi class="secno">1. </bdi>Niet-normatieve deel</h2><a class="self-link" href="#niet-normatieve-deel" aria-label="Permalink for Section 1."></a></div><p><em>Dit onderdeel is niet normatief.</em></p>
@@ -1462,29 +1462,1120 @@ Dit hoofdstuk is toegevoegd met <code>class="informative"</code> in <code>config
 </tr>
 </tbody></table>
 </section></section>
- 
-
-
-<meta charset="utf-8">
-<title>Error</title>
-
-
-<pre aria-busy="false"><code class="hljs">Cannot GET /data/imgolf-cat.respec.html</code></pre>
-
-
-
-<section id="meer-inhoud"><div class="header-wrapper"><h2 id="x2-meer-inhoud"><bdi class="secno">2. </bdi>Meer inhoud</h2><a class="self-link" href="#meer-inhoud" aria-label="Permalink for Section 2."></a></div>
-<section id="definities"><div class="header-wrapper"><h3 id="x2-1-definities"><bdi class="secno">2.1 </bdi>Definities</h3><a class="self-link" href="#definities" aria-label="Permalink for Section 2.1"></a></div>
+ <section id="cat" class="normative"><div class="header-wrapper"><h2 id="x2-gegevensdefinitie"><bdi class="secno">2. </bdi>Gegevensdefinitie</h2><a class="self-link" href="#cat" aria-label="Permalink for Section 2."></a></div><section id="global_packages"><div class="header-wrapper"><h3 id="x2-1-model-imgolf"><bdi class="secno">2.1 </bdi>Model   IMGolf</h3><a class="self-link" href="#global_packages" aria-label="Permalink for Section 2.1"></a></div><section id="EAID_97CD9DFA_6A83_4cfa_8B08_23C0B4353FFA"><div class="header-wrapper"><h4 id="x2-1-1-imgolf-detail"><bdi class="secno">2.1.1 </bdi>   IMGolf - detail</h4><a class="self-link" href="#EAID_97CD9DFA_6A83_4cfa_8B08_23C0B4353FFA" aria-label="Permalink for Section 2.1.1"></a></div><div class="imageinfo "><figure class="uml-diagram" id="fig-diagram-imgolf"><img id="EAID_97CD9DFA_6A83_4cfa_8B08_23C0B4353FFA" src="data/Images/EAID_97CD9DFA_6A83_4cfa_8B08_23C0B4353FFA.png" usemap="#imagemap-EAID_97CD9DFA_6A83_4cfa_8B08_23C0B4353FFA" alt="Diagram: UML klassediagram van IMGolf. Een Golfbaan heeft meerdere Parcours die weer zijn opgebouwd uit meerdere ParcoursDelen zoals fairway, green rough en semi-rough. Tees, Hindernissen en Holes zijn onderdelen die voorkomen. Een Hole bevindt zich altijd in een Green."><figcaption><a class="self-link" href="#fig-diagram-imgolf">Figuur <bdi class="figno">1</bdi></a> <span class="fig-title"> ‒ Diagram: IMGolf</span></figcaption></figure><map name="imagemap-EAID_97CD9DFA_6A83_4cfa_8B08_23C0B4353FFA"><area shape="rect" alt="Green" coords="536,995,659,1091" href="#global_class_Golfbaan_Green"><area shape="rect" alt="VlakMultivlak" coords="228,759,420,880" href="#global_class_Golfbaan_VlakMultivlak"><area shape="rect" alt="Tee" coords="302,374,467,529" href="#global_class_Golfbaan_Tee"><area shape="rect" alt="Hindernis" coords="780,374,999,538" href="#global_class_Golfbaan_Hindernis"><area shape="rect" alt="Hole" coords="902,679,1059,823" href="#global_class_Golfbaan_Hole"><area shape="rect" alt="ParcoursDeel" coords="466,666,727,880" href="#global_class_Golfbaan_ParcoursDeel"><area shape="rect" alt="TypeParcoursDeel" coords="195,573,318,748" href="#global_class_Waardelijsten_TypeParcoursDeel"><area shape="rect" alt="TypeHindernis" coords="14,608,137,748" href="#global_class_Waardelijsten_TypeHindernis"><area shape="rect" alt="TypeGolfbaan" coords="14,447,137,604" href="#global_class_Waardelijsten_TypeGolfbaan"><area shape="rect" alt="ToegangGolfbaan" coords="14,299,239,439" href="#global_class_Golfbaan_ToegangGolfbaan"><area shape="rect" alt="Parcours" coords="492,14,689,208" href="#global_class_Golfbaan_Parcours"><area shape="rect" alt="Golfbaan" coords="14,14,210,241" href="#global_class_Golfbaan_Golfbaan"></map><p>
+                        </p><p>
+                           <b>UML klassediagram van IMGolf.</b>
+                        </p>
+                        <p>
+                           <b></b>
+                        </p>
+                        <p>
+                           <b></b>Een Golfbaan heeft meerdere Parcours die weer zijn opgebouwd uit meerdere Parcours­Delen zoals fairway, green rough en semi-rough. Tees, Hindernissen en Holes zijn onderdelen die voorkomen. Een Hole bevindt zich altijd in een Green.</p>
+                        <p>
+                           <b></b>
+                        </p>
+                        <p>
+                           <b></b>
+                        </p>
+                     <p></p></div></section><section id="EAID_B3E2586B_2ECB_48a7_A0B8_8DDF159D46D4"><div class="header-wrapper"><h4 id="x2-1-2-imgolf-registratiegegevens-detail"><bdi class="secno">2.1.2 </bdi>   IMGolf-registratiegegevens - detail</h4><a class="self-link" href="#EAID_B3E2586B_2ECB_48a7_A0B8_8DDF159D46D4" aria-label="Permalink for Section 2.1.2"></a></div><div class="imageinfo "><figure class="uml-diagram" id="fig-diagram-imgolf-registratiegegevens"><img id="EAID_B3E2586B_2ECB_48a7_A0B8_8DDF159D46D4" src="data/Images/EAID_B3E2586B_2ECB_48a7_A0B8_8DDF159D46D4.png" usemap="#imagemap-EAID_B3E2586B_2ECB_48a7_A0B8_8DDF159D46D4" alt="Diagram: De basiselementen voor identificatie en temporeel model."><figcaption><a class="self-link" href="#fig-diagram-imgolf-registratiegegevens">Figuur <bdi class="figno">2</bdi></a> <span class="fig-title"> ‒ Diagram: IMGolf-registratiegegevens</span></figcaption></figure><map name="imagemap-EAID_B3E2586B_2ECB_48a7_A0B8_8DDF159D46D4"><area shape="rect" alt="IMGolf-object" coords="14,29,246,150" href="#global_class_Golfbaan_IMGolfobject"><area shape="rect" alt="Registratie" coords="581,14,787,176" href="#global_class_Golfbaan_Registratie"></map><p>
+                        </p><p>De basiselementen voor identificatie en temporeel model.</p>
+                     <p></p></div></section></section><section id="global_package_Golfbaan"><div class="header-wrapper"><h3 id="x2-2-domein-golfbaan"><bdi class="secno">2.2 </bdi>Domein   Golfbaan</h3><a class="self-link" href="#global_package_Golfbaan" aria-label="Permalink for Section 2.2"></a></div><section id="objecttypen"><div class="header-wrapper"><h4 id="x2-2-1-objecttypen"><bdi class="secno">2.2.1 </bdi>Objecttypen   </h4><a class="self-link" href="#objecttypen" aria-label="Permalink for Section 2.2.1"></a></div>
+            <section id="global_class_Golfbaan_Green"><div class="header-wrapper"><h5 id="x2-2-1-1-green"><bdi class="secno">2.2.1.1 </bdi>   Green</h5><a class="self-link" href="#global_class_Golfbaan_Green" aria-label="Permalink for Section 2.2.1.1"></a></div>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Green</td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>De green is het kortgemaaide, speciaal geprepareerde gedeelte gras aan het einde van elke golfhole, waar de vlaggenstok en de hole (het putje) zich bevinden</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <div class="header-wrapper"><h6 id="overzicht-relaties">Overzicht relaties  </h6><a class="self-link" href="#global_class_Golfbaan_Green" aria-label="Permalink for this Section"></a></div>
+                  
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Rol naam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Green
+                           is specialisatie van
+                           
+                              <a class="link" href="#global_class_Golfbaan_ParcoursDeel">Parcours­Deel</a>
+                           
+                        </td><td>
+                           <p>Deel van het terrein van de hole (parcours).</p>
+                        </td></tr><tr><td>
+                           Green
+                           is specialisatie van
+                           
+                              <a class="link" href="#global_class_Golfbaan_IMGolfobject">IMGolf-object</a>
+                           
+                        </td><td></td></tr></tbody></table>
+               
+            </section>
+            <section id="global_class_Golfbaan_Registratie"><div class="header-wrapper"><h5 id="x2-2-1-2-registratie"><bdi class="secno">2.2.1.2 </bdi>   Registratie</h5><a class="self-link" href="#global_class_Golfbaan_Registratie" aria-label="Permalink for Section 2.2.1.2"></a></div>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Registratie</td></tr><tr><th>Herkomst</th><td>
+                        nen 3610
+                     </td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Vastlegging van een versie van een set gegevens.</p>
+                           
+                     </td></tr><tr><th>Herkomst definitie</th><td>
+                        nen 3610
+                     </td></tr><tr><th>Datum opname</th><td>
+                        2022-06-01
+                     </td></tr><tr><th>Toelichting</th><td>
+                        Bij het registreren van een object als informatieobject horen een aantal metadata die hier betrekking op hebben, zoals versie en registratie van tijdlijngegevens.
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <div class="header-wrapper"><h6 id="overzicht-attributen">Overzicht attributen  </h6><a class="self-link" href="#global_class_Golfbaan_Registratie" aria-label="Permalink for this Section"></a></div>
+                  <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th>Attribuutnaam</th><th>Definitie</th><th>Formaat</th><th>Card</th></tr><tr><td>
+                           <a class="link" href="#detail_attribute_Golfbaan_Registratie_versie">versie</a>
+                        </td><td>
+                           <p>Versieaanduiding van een informatieobject.</p>
+                        </td><td>
+                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20200225/#primitive-datatypes">Character­String</a>
+                        </td><td>0 .. 1</td></tr><tr><td>
+                           <a class="link" href="#detail_attribute_Golfbaan_Registratie_beginGeldigheid">begin­Geldigheid</a>
+                        </td><td>
+                           <p>Start van de periode waarop deze versie van het informatieobject geldig is.</p>
+                        </td><td>
+                           DATE
+                        </td><td>1</td></tr><tr><td>
+                           <a class="link" href="#detail_attribute_Golfbaan_Registratie_eindGeldigheid">eind­Geldigheid</a>
+                        </td><td>
+                           <p>Eind van de periode waarop deze versie van het informatieobject geldig is. De periode is tot aan deze tijdsaanduiding. Wanneer deze waarde niet is ingevuld, is de versie nog geldig.</p>
+                        </td><td>
+                           DATE
+                        </td><td>0 .. 1</td></tr></tbody></table>
+               
+            </section>
+            <section id="global_class_Golfbaan_Parcours"><div class="header-wrapper"><h5 id="x2-2-1-3-parcours"><bdi class="secno">2.2.1.3 </bdi>   Parcours</h5><a class="self-link" href="#global_class_Golfbaan_Parcours" aria-label="Permalink for Section 2.2.1.3"></a></div>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Parcours</td></tr><tr><th>Herkomst</th><td>
+                        imgolf
+                     </td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een van de speelvelden van een golfbaan.</p>
+                           
+                     </td></tr><tr><th>Herkomst definitie</th><td>
+                        
+                              <a href="http://nl.wikipedia.org/wiki/Hole_%28golf%29" target="_blank">http://nl.wikipedia.org/wiki/Hole_%28golf%29</a>
+                           
+                     </td></tr><tr><th>Datum opname</th><td>
+                        2022-06-01
+                     </td></tr><tr><th>Toelichting</th><td>
+                        
+                              <p>Ook wel 'Hole' genoemd. Hier wordt de term Parcours gebruikt om verwarring met de hole waar de bal ingeslagen moet worden, te voorkomen.</p>
+                              <p></p>
+                              <p>Ieder parcours bestaat in de regel uit de volgende onderdelen: Tee-box, Green, Hole, Fairway, Rough, Fringe / Apron, Hindernissen.</p>
+                           
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <div class="header-wrapper"><h6 id="overzicht-attributen-0">Overzicht attributen  </h6><a class="self-link" href="#global_class_Golfbaan_Parcours" aria-label="Permalink for this Section"></a></div>
+                  <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th>Attribuutnaam</th><th>Definitie</th><th>Formaat</th><th>Card</th></tr><tr><td>
+                           <a class="link" href="#detail_attribute_Golfbaan_Parcours_geometry">geometry</a>
+                        </td><td>
+                           <p>Multi-vlak geometrie</p>
+                        </td><td>
+                           GM_Multi­Surface
+                        </td><td>1</td></tr><tr><td>
+                           <a class="link" href="#detail_attribute_Golfbaan_Parcours_nummer">nummer</a>
+                        </td><td>
+                           <p>De getalaanduiding voor het parcours. </p>
+                        </td><td>
+                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20200225/#primitive-datatypes">Integer</a>
+                        </td><td>1</td></tr><tr><td>
+                           <a class="link" href="#detail_attribute_Golfbaan_Parcours_par">par</a>
+                        </td><td>
+                           <p>het aantal slagen waarin een gemiddelde professionele golfer een hole zou moeten kunnen spelen.</p>
+                        </td><td>
+                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20200225/#primitive-datatypes">Integer</a>
+                        </td><td>1</td></tr></tbody></table>
+               
+               <div class="header-wrapper"><h6 id="overzicht-relaties-0">Overzicht relaties  </h6><a class="self-link" href="#global_class_Golfbaan_Parcours" aria-label="Permalink for this Section"></a></div>
+                  
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Rol naam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Parcours
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_Golfbaan_Parcours_parcoursDeel">bestaat uit: parcours­Deel</a>
+                           
+                           
+                              <a class="link" href="#global_class_Golfbaan_ParcoursDeel">Parcours­Deel</a>
+                           
+                           [ 1 .. * ]
+                        </td><td>
+                           <p>Een deel van het parcours.</p>
+                        </td></tr><tr><td>
+                           Parcours
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_Golfbaan_Parcours_hindernis">bevat: hindernis</a>
+                           
+                           
+                              <a class="link" href="#global_class_Golfbaan_Hindernis">Hindernis</a>
+                           
+                           [ 0 .. 1 ]
+                        </td><td>
+                           <p>De hindernis die bij het parcours hoort.</p>
+                        </td></tr><tr><td>
+                           Parcours
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_Golfbaan_Parcours_afslagplaats">heeft: afslagplaats</a>
+                           
+                           
+                              <a class="link" href="#global_class_Golfbaan_Tee">Tee</a>
+                           
+                           [ 1 .. * ]
+                        </td><td>
+                           <p>De afslagplaats van dit parcours.</p>
+                        </td></tr><tr><td>
+                           Parcours
+                           is specialisatie van
+                           
+                              <a class="external-link" href="http://definities.geostandaarden.nl/nen3610-2022/id/begrip/functionele_ruimte">Functionele­Ruimte</a>
+                           
+                        </td><td></td></tr><tr><td>
+                           Parcours
+                           is specialisatie van
+                           
+                              <a class="link" href="#global_class_Golfbaan_IMGolfobject">IMGolf-object</a>
+                           
+                        </td><td></td></tr></tbody></table>
+               
+            </section>
+            <section id="global_class_Golfbaan_Golfbaan"><div class="header-wrapper"><h5 id="x2-2-1-4-golfbaan"><bdi class="secno">2.2.1.4 </bdi>   Golfbaan</h5><a class="self-link" href="#global_class_Golfbaan_Golfbaan" aria-label="Permalink for Section 2.2.1.4"></a></div>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Golfbaan</td></tr><tr><th>Herkomst</th><td>
+                        imgolf
+                     </td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een golfbaan is een perceel waarop de sport golf wordt gespeeld. </p>
+                           
+                     </td></tr><tr><th>Herkomst definitie</th><td>
+                        
+                              <a href="http://nl.wikipedia.org/wiki/Golfbaan" target="_blank">http://nl.wikipedia.org/wiki/Golfbaan</a>
+                           
+                     </td></tr><tr><th>Datum opname</th><td>
+                        2022-06-01
+                     </td></tr><tr><th>Toelichting</th><td>
+                        De baan bestaat uit een reeks holes.
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <div class="header-wrapper"><h6 id="overzicht-attributen-1">Overzicht attributen  </h6><a class="self-link" href="#global_class_Golfbaan_Golfbaan" aria-label="Permalink for this Section"></a></div>
+                  <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th>Attribuutnaam</th><th>Definitie</th><th>Formaat</th><th>Card</th></tr><tr><td>
+                           <a class="link" href="#detail_attribute_Golfbaan_Golfbaan_naam">naam</a>
+                        </td><td>
+                           <p>De benaming van de golfbaan.</p>
+                        </td><td>
+                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20200225/#primitive-datatypes">Character­String</a>
+                        </td><td>1</td></tr><tr><td>
+                           <a class="link" href="#detail_attribute_Golfbaan_Golfbaan_geometry">geometry</a>
+                        </td><td>
+                           <p>Vlakgeometrie van het totale golfterrein.</p>
+                        </td><td>
+                           GM_Multi­Surface
+                        </td><td>1</td></tr><tr><td>
+                           <a class="link" href="#detail_attribute_Golfbaan_Golfbaan_typeGolfbaan">type­Golfbaan</a>
+                        </td><td>
+                           <p>Het soort golfbaan, ingedeeld naar het type terrein waar zij zich bevindt.</p>
+                        </td><td>
+                           <a class="link" href="#global_class_Waardelijsten_TypeGolfbaan">Type­Golfbaan</a>
+                        </td><td>1</td></tr><tr><td>
+                           toegang
+                        :</td><td>
+                           <p>Informatie over de toegang tot de golfbaan.</p>
+                        </td><td>
+                           <a class="link" href="#detail_class_Golfbaan_ToegangGolfbaan">Toegang­Golfbaan</a>
+                        </td><td>1</td></tr><tr><td>- 
+                           <a class="link" href="#detail_attribute_Golfbaan_ToegangGolfbaan_alleenVoorLeden">alleen­Voor­Leden</a>
+                        </td><td>
+                           <p>Geeft aan of de golfbaan alleen voor leden van de vereniging toegankelijk is.</p>
+                        </td><td>
+                           BOOLEAN
+                        </td><td>1</td></tr><tr><td>- 
+                           <a class="link" href="#detail_attribute_Golfbaan_ToegangGolfbaan_vereisten">vereisten</a>
+                        </td><td>
+                           <p>Harde vereisten voor toegang tot de golfbaan.</p>
+                        </td><td>
+                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20200225/#primitive-datatypes">Character­String</a>
+                        </td><td>0 .. 1</td></tr><tr><td>- 
+                           <a class="link" href="#detail_attribute_Golfbaan_ToegangGolfbaan_etiquette">etiquette</a>
+                        </td><td>
+                           <p>Beschrijving van de niet-harde regels op de golfbaan.</p>
+                        </td><td>
+                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20200225/#primitive-datatypes">Character­String</a>
+                        </td><td>0 .. 1</td></tr></tbody></table>
+               
+               <div class="header-wrapper"><h6 id="overzicht-relaties-1">Overzicht relaties  </h6><a class="self-link" href="#global_class_Golfbaan_Golfbaan" aria-label="Permalink for this Section"></a></div>
+                  
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Rol naam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Golfbaan
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_Golfbaan_Golfbaan_hole">omvat: hole</a>
+                           
+                           
+                              <a class="link" href="#global_class_Golfbaan_Parcours">Parcours</a>
+                           
+                           [ 0 .. * ]
+                        </td><td>
+                           <p>Een hole of parcours als onderdeel van deze golfbaan.</p>
+                           <p>Toelichting:
+Een parcours, meestal Hole genoemd, is een terrein met verschillende onderdelen zoals het afslagpunt, de fairway, de green en de hole. </p>
+                        </td></tr><tr><td>
+                           Golfbaan
+                           is specialisatie van
+                           
+                              <a class="link" href="#global_class_Golfbaan_IMGolfobject">IMGolf-object</a>
+                           
+                        </td><td></td></tr><tr><td>
+                           Golfbaan
+                           is specialisatie van
+                           
+                              <a class="external-link" href="http://definities.geostandaarden.nl/nen3610-2022/id/begrip/functionele_ruimte">Functionele­Ruimte</a>
+                           
+                        </td><td></td></tr></tbody></table>
+               
+            </section>
+            <section id="global_class_Golfbaan_IMGolfobject"><div class="header-wrapper"><h5 id="x2-2-1-5-imgolf-object"><bdi class="secno">2.2.1.5 </bdi>   IMGolf-object</h5><a class="self-link" href="#global_class_Golfbaan_IMGolfobject" aria-label="Permalink for Section 2.2.1.5"></a></div>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>IMGolf-object</td></tr><tr><th>Herkomst</th><td>
+                        imgolf
+                     </td></tr><tr><th>Herkomst definitie</th><td>
+                        imgolf
+                     </td></tr><tr><th>Datum opname</th><td>
+                        2022-06-01
+                     </td></tr><tr><th>Unieke aanduiding</th><td>identificatie + domein</td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <div class="header-wrapper"><h6 id="overzicht-attributen-2">Overzicht attributen  </h6><a class="self-link" href="#global_class_Golfbaan_IMGolfobject" aria-label="Permalink for this Section"></a></div>
+                  <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th>Attribuutnaam</th><th>Definitie</th><th>Formaat</th><th>Card</th></tr><tr><td>
+                           <a class="link" href="#detail_attribute_Golfbaan_IMGolfobject_identificatie">identificatie</a>
+                        </td><td>
+                           <p>Unieke identificatiecode van een informatieobject binnen de context van een registratie.
+Toelichting:  ‘identificatie’ is de identificatiecode die een object heeft binnen een registratie of binnen een ketenproces voor data-uitwisseling. Binnen de registratie of de data-uitwisseling is het object uniek identificeerbaar. In combinatie met het attribuut domein wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties, uitwisselprocessen en ook wereldwijd uniek.
+De reguliere expressie voor de toegestane tekens is: [a-z­A-Z| 0-9| _| .| -|\/|:|]</p>
+                        </td><td>
+                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20200225/#primitive-datatypes">Character­String</a>
+                        </td><td>1</td></tr><tr><td>
+                           <a class="link" href="#detail_attribute_Golfbaan_IMGolfobject_domein">domein</a>
+                        </td><td>
+                           <p>Definitie: Aanduiding van het domein waarbinnen de identificatie uniek is.
+Toelichting: Het attribuut ‘domein’ is een unieke verwijzing naar de registratie of ketenproces verantwoordelijke entiteit die de identificatie uitdeelt of regels daartoe heeft opgesteld. In combinatie met het attribuut identificatie wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties en ook mondiaal uniek.</p>
+                        </td><td>
+                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20200225/#primitive-datatypes">Character­String</a>
+                        </td><td>1</td></tr></tbody></table>
+               
+               <div class="header-wrapper"><h6 id="overzicht-relaties-2">Overzicht relaties  </h6><a class="self-link" href="#global_class_Golfbaan_IMGolfobject" aria-label="Permalink for this Section"></a></div>
+                  
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Rol naam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           IMGolf-object
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_Golfbaan_IMGolfobject_registratiegegevens">geregistreerd­Met: registratiegegevens</a>
+                           
+                           
+                              <a class="link" href="#global_class_Golfbaan_Registratie">Registratie</a>
+                           
+                           [ 1 ]
+                        </td><td>
+                           <p>Gegevens over de registratie van het object als informatieobject.</p>
+                        </td></tr></tbody></table>
+               
+            </section>
+            <section id="global_class_Golfbaan_Hindernis"><div class="header-wrapper"><h5 id="x2-2-1-6-hindernis"><bdi class="secno">2.2.1.6 </bdi>   Hindernis</h5><a class="self-link" href="#global_class_Golfbaan_Hindernis" aria-label="Permalink for Section 2.2.1.6"></a></div>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Hindernis</td></tr><tr><th>Herkomst</th><td>
+                        imgolf
+                     </td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Een obstakel op het parcours in de vorm van een zand- of waterpartij.</p>
+                           
+                     </td></tr><tr><th>Herkomst definitie</th><td>
+                        imgolf
+                     </td></tr><tr><th>Datum opname</th><td>
+                        2022-06-01
+                     </td></tr><tr><th>Toelichting</th><td>
+                        Om een bal uit een bunker te slaan wordt vaak een speciale club gebruik; als een bal in het water terecht komt ben je verder van huis.
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <div class="header-wrapper"><h6 id="overzicht-attributen-3">Overzicht attributen  </h6><a class="self-link" href="#global_class_Golfbaan_Hindernis" aria-label="Permalink for this Section"></a></div>
+                  <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th>Attribuutnaam</th><th>Definitie</th><th>Formaat</th><th>Card</th></tr><tr><td>
+                           <a class="link" href="#detail_attribute_Golfbaan_Hindernis_typeHindernis">type­Hindernis</a>
+                        </td><td>
+                           <p>Het soort hindernis.</p>
+                        </td><td>
+                           <a class="link" href="#global_class_Waardelijsten_TypeHindernis">Type­Hindernis</a>
+                        </td><td>1</td></tr><tr><td>
+                           <a class="link" href="#detail_attribute_Golfbaan_Hindernis_geometrie">geometrie</a>
+                        </td><td>
+                           <p>Vlakgeometrie</p>
+                        </td><td>
+                           GM_Surface
+                        </td><td>1</td></tr></tbody></table>
+               
+               <div class="header-wrapper"><h6 id="overzicht-relaties-3">Overzicht relaties  </h6><a class="self-link" href="#global_class_Golfbaan_Hindernis" aria-label="Permalink for this Section"></a></div>
+                  
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Rol naam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Hindernis
+                           is specialisatie van
+                           
+                              <a class="link" href="#global_class_Golfbaan_IMGolfobject">IMGolf-object</a>
+                           
+                        </td><td></td></tr><tr><td>
+                           Hindernis
+                           is specialisatie van
+                           
+                              <a class="external-link" href="http://definities.geostandaarden.nl/nen3610-2022/id/begrip/reeel_object">Reeel­Object</a>
+                           
+                        </td><td></td></tr></tbody></table>
+               
+            </section>
+            <section id="global_class_Golfbaan_ParcoursDeel"><div class="header-wrapper"><h5 id="x2-2-1-7-parcours-deel"><bdi class="secno">2.2.1.7 </bdi>   Parcours­Deel</h5><a class="self-link" href="#global_class_Golfbaan_ParcoursDeel" aria-label="Permalink for Section 2.2.1.7"></a></div>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Parcours­Deel</td></tr><tr><th>Herkomst</th><td>
+                        imgolf
+                     </td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Deel van het terrein van de hole (parcours).</p>
+                           
+                     </td></tr><tr><th>Herkomst definitie</th><td>
+                        
+                              <a href="http://nl.wikipedia.org/wiki/Golfbaan#Onderdelen_van_een_golfbaan" target="_blank">http://nl.wikipedia.org/wiki/Golfbaan#Onderdelen_van_een_golfbaan</a>
+                           
+                     </td></tr><tr><th>Datum opname</th><td>
+                        2022-06-01
+                     </td></tr><tr><th>Toelichting</th><td>
+                        Elk parcours heeft verschillende onderdelen zoals de green, de fairway, de semi-rough en de rough.
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <div class="header-wrapper"><h6 id="overzicht-attributen-4">Overzicht attributen  </h6><a class="self-link" href="#global_class_Golfbaan_ParcoursDeel" aria-label="Permalink for this Section"></a></div>
+                  <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th>Attribuutnaam</th><th>Definitie</th><th>Formaat</th><th>Card</th></tr><tr><td>
+                           <a class="link" href="#detail_attribute_Golfbaan_ParcoursDeel_TypeParcoursDeel">Type­Parcours­Deel</a>
+                        </td><td>
+                           <p>Het soort parcoursdeel.</p>
+                        </td><td>
+                           <a class="link" href="#global_class_Waardelijsten_TypeParcoursDeel">Type­Parcours­Deel</a>
+                        </td><td>1</td></tr><tr><td>
+                           <a class="link" href="#detail_attribute_Golfbaan_ParcoursDeel_geometry">geometry</a>
+                        </td><td>
+                           <p>Vlakgeometrie.</p>
+                        </td><td>
+                           <a class="link" href="#global_class_Golfbaan_VlakMultivlak">Vlak­Multivlak</a>
+                        </td><td>1</td></tr></tbody></table>
+               
+               <div class="header-wrapper"><h6 id="overzicht-relaties-4">Overzicht relaties  </h6><a class="self-link" href="#global_class_Golfbaan_ParcoursDeel" aria-label="Permalink for this Section"></a></div>
+                  
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Rol naam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Parcours­Deel
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_Golfbaan_ParcoursDeel_hole">heeft: hole</a>
+                           
+                           
+                              <a class="link" href="#global_class_Golfbaan_Hole">Hole</a>
+                           
+                           [ 1 ]
+                        </td><td>
+                           <p>De hole die bij dit deel van het parcours hoort.</p>
+                        </td></tr><tr><td>
+                           Parcours­Deel
+                           is specialisatie van
+                           
+                              <a class="link" href="#global_class_Golfbaan_IMGolfobject">IMGolf-object</a>
+                           
+                        </td><td></td></tr><tr><td>
+                           Parcours­Deel
+                           is specialisatie van
+                           
+                              <a class="external-link" href="http://definities.geostandaarden.nl/nen3610-2022/id/begrip/functionele_ruimte">Functionele­Ruimte</a>
+                           
+                        </td><td></td></tr></tbody></table>
+               
+               <div class="header-wrapper"><h6 id="overzicht-constraints">Overzicht constraints  </h6><a class="self-link" href="#global_class_Golfbaan_ParcoursDeel" aria-label="Permalink for this Section"></a></div>
+                  <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><th>Uitleg</th></tr><tr><th>
+                           <a class="link" href="#detail_d12868e4694">
+                              Hole­Within­Green
+                           </a>
+                        </th><td></td></tr></tbody></table>
+               
+            </section>
+            <section id="global_class_Golfbaan_Tee"><div class="header-wrapper"><h5 id="x2-2-1-8-tee"><bdi class="secno">2.2.1.8 </bdi>   Tee</h5><a class="self-link" href="#global_class_Golfbaan_Tee" aria-label="Permalink for Section 2.2.1.8"></a></div>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Tee</td></tr><tr><th>Herkomst</th><td>
+                        imgolf
+                     </td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>De afslagplaats aan het begin van een hole.</p>
+                           
+                     </td></tr><tr><th>Herkomst definitie</th><td>
+                        
+                              <a href="http://nl.wikipedia.org/wiki/Tee_(golf)" target="_blank">http://nl.wikipedia.org/wiki/Tee_(golf)</a>
+                           
+                     </td></tr><tr><th>Datum opname</th><td>
+                        2022-06-01
+                     </td></tr><tr><th>Toelichting</th><td>
+                        Ook wel tee-box genoemd.
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <div class="header-wrapper"><h6 id="overzicht-attributen-5">Overzicht attributen  </h6><a class="self-link" href="#global_class_Golfbaan_Tee" aria-label="Permalink for this Section"></a></div>
+                  <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th>Attribuutnaam</th><th>Definitie</th><th>Formaat</th><th>Card</th></tr><tr><td>
+                           <a class="link" href="#detail_attribute_Golfbaan_Tee_geometry">geometry</a>
+                        </td><td>
+                           <p>Vlakgeometrie</p>
+                        </td><td>
+                           GM_Surface
+                        </td><td>1</td></tr></tbody></table>
+               
+               <div class="header-wrapper"><h6 id="overzicht-relaties-5">Overzicht relaties  </h6><a class="self-link" href="#global_class_Golfbaan_Tee" aria-label="Permalink for this Section"></a></div>
+                  
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Rol naam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Tee
+                           is specialisatie van
+                           
+                              <a class="link" href="#global_class_Golfbaan_IMGolfobject">IMGolf-object</a>
+                           
+                        </td><td></td></tr><tr><td>
+                           Tee
+                           is specialisatie van
+                           
+                              <a class="external-link" href="http://definities.geostandaarden.nl/nen3610-2022/id/begrip/reeel_object">Reeel­Object</a>
+                           
+                        </td><td></td></tr></tbody></table>
+               
+            </section>
+            <section id="global_class_Golfbaan_Hole"><div class="header-wrapper"><h5 id="x2-2-1-9-hole"><bdi class="secno">2.2.1.9 </bdi>   Hole</h5><a class="self-link" href="#global_class_Golfbaan_Hole" aria-label="Permalink for Section 2.2.1.9"></a></div>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Hole</td></tr><tr><th>Herkomst</th><td>
+                        imgolf
+                     </td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Met een vlag gemarkeerd punt waarin de bal geslagen moet worden.</p>
+                           
+                     </td></tr><tr><th>Herkomst definitie</th><td>
+                        imgolf
+                     </td></tr><tr><th>Datum opname</th><td>
+                        2022-06-01
+                     </td></tr><tr><th>Toelichting</th><td>
+                        De hole wordt regelmatig van plek veranderd, omdat de green dan niet onregelmatig slijt.
+                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <div class="header-wrapper"><h6 id="overzicht-attributen-6">Overzicht attributen  </h6><a class="self-link" href="#global_class_Golfbaan_Hole" aria-label="Permalink for this Section"></a></div>
+                  <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th>Attribuutnaam</th><th>Definitie</th><th>Formaat</th><th>Card</th></tr><tr><td>
+                           <a class="link" href="#detail_attribute_Golfbaan_Hole_geometrie">geometrie</a>
+                        </td><td>
+                           <p>Puntgeometrie</p>
+                        </td><td>
+                           GM_Point
+                        </td><td>1</td></tr></tbody></table>
+               
+               <div class="header-wrapper"><h6 id="overzicht-relaties-6">Overzicht relaties  </h6><a class="self-link" href="#global_class_Golfbaan_Hole" aria-label="Permalink for this Section"></a></div>
+                  
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Rol naam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                           Hole
+                           [ 1 ]
+                           
+                              <a class="link" href="#detail_association_Golfbaan_Hole_greenInHole">binnen: green­In­Hole</a>
+                           
+                           
+                              <a class="link" href="#global_class_Golfbaan_Green">Green</a>
+                           
+                           [ 1 ]
+                        </td><td></td></tr><tr><td>
+                           Hole
+                           is specialisatie van
+                           
+                              <a class="link" href="#global_class_Golfbaan_IMGolfobject">IMGolf-object</a>
+                           
+                        </td><td></td></tr><tr><td>
+                           Hole
+                           is specialisatie van
+                           
+                              <a class="external-link" href="http://definities.geostandaarden.nl/nen3610-2022/id/begrip/reeel_object">Reeel­Object</a>
+                           
+                        </td><td></td></tr></tbody></table>
+               
+            </section>
+         </section><section id="keuzen"><div class="header-wrapper"><h4 id="x2-2-2-keuzen"><bdi class="secno">2.2.2 </bdi>Keuzen   </h4><a class="self-link" href="#keuzen" aria-label="Permalink for Section 2.2.2"></a></div>
+            <section id="global_class_Golfbaan_VlakMultivlak"><div class="header-wrapper"><h5 id="x2-2-2-1-vlak-multivlak"><bdi class="secno">2.2.2.1 </bdi>   Vlak­Multivlak</h5><a class="self-link" href="#global_class_Golfbaan_VlakMultivlak" aria-label="Permalink for Section 2.2.2.1"></a></div>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Vlak­Multivlak</td></tr><tr><th>Herkomst</th><td>
+                        imgolf
+                     </td></tr><tr><th>Datum opname</th><td>
+                        2022-06-01
+                     </td></tr></tbody></table>
+               <div class="header-wrapper"><h6 id="overzicht-keuze-elementen">Overzicht keuze elementen  </h6><a class="self-link" href="#global_class_Golfbaan_VlakMultivlak" aria-label="Permalink for this Section"></a></div>
+                  <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th>Keuze element</th><th>Definitie</th><th>Formaat</th><th>Card</th></tr><tr><td>
+                           <a class="link" href="#detail_attribute_Golfbaan_VlakMultivlak_multivlak">multivlak</a>
+                        </td><td>
+                           <p>Een geometrie uit meerdere vlakken.</p>
+                        </td><td>
+                           GM_Multi­Surface
+                        </td><td>1</td></tr><tr><td>
+                           <a class="link" href="#detail_attribute_Golfbaan_VlakMultivlak_vlak">vlak</a>
+                        </td><td>
+                           <p>Een vlak geometrie.</p>
+                        </td><td>
+                           GM_Surface
+                        </td><td>1</td></tr></tbody></table>
+               
+            </section>
+         </section><section id="gegevensgroeptypen"><div class="header-wrapper"><h4 id="x2-2-3-gegevensgroeptypen"><bdi class="secno">2.2.3 </bdi>Gegevensgroeptypen   </h4><a class="self-link" href="#gegevensgroeptypen" aria-label="Permalink for Section 2.2.3"></a></div>
+            <section id="global_class_Golfbaan_ToegangGolfbaan"><div class="header-wrapper"><h5 id="x2-2-3-1-gegevensgroep-toegang-golfbaan"><bdi class="secno">2.2.3.1 </bdi>Gegevensgroep   Toegang­Golfbaan</h5><a class="self-link" href="#global_class_Golfbaan_ToegangGolfbaan" aria-label="Permalink for Section 2.2.3.1"></a></div>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Toegang­Golfbaan</td></tr><tr><th>Herkomst</th><td>
+                        imgolf
+                     </td></tr><tr><th>Definitie</th><td>
+                        
+                              <p>Informatie over de toegang tot de golfbaan.</p>
+                           
+                     </td></tr><tr><th>Herkomst definitie</th><td>
+                        imgolf
+                     </td></tr><tr><th>Datum opname</th><td>
+                        2022-06-01
+                     </td></tr><tr><th>Toelichting</th><td>
+                        Bestaat uit verschillende onderdelen. Later worden misschien nog de openingstijden toegevoegd.
+                     </td></tr></tbody></table>
+               <div class="header-wrapper"><h6 id="overzicht-attributen-7">Overzicht attributen  </h6><a class="self-link" href="#global_class_Golfbaan_ToegangGolfbaan" aria-label="Permalink for this Section"></a></div>
+                  <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th>Attribuutnaam</th><th>Definitie</th><th>Formaat</th><th>Card</th></tr><tr><td>- 
+                           <a class="link" href="#detail_attribute_Golfbaan_ToegangGolfbaan_alleenVoorLeden">alleen­Voor­Leden</a>
+                        </td><td>
+                           <p>Geeft aan of de golfbaan alleen voor leden van de vereniging toegankelijk is.</p>
+                        </td><td>
+                           BOOLEAN
+                        </td><td>1</td></tr><tr><td>- 
+                           <a class="link" href="#detail_attribute_Golfbaan_ToegangGolfbaan_vereisten">vereisten</a>
+                        </td><td>
+                           <p>Harde vereisten voor toegang tot de golfbaan.</p>
+                        </td><td>
+                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20200225/#primitive-datatypes">Character­String</a>
+                        </td><td>0 .. 1</td></tr><tr><td>- 
+                           <a class="link" href="#detail_attribute_Golfbaan_ToegangGolfbaan_etiquette">etiquette</a>
+                        </td><td>
+                           <p>Beschrijving van de niet-harde regels op de golfbaan.</p>
+                        </td><td>
+                           <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20200225/#primitive-datatypes">Character­String</a>
+                        </td><td>0 .. 1</td></tr></tbody></table>
+               
+            </section>
+         </section><section id="attribuut-en-relatiesoort-details"><div class="header-wrapper"><h4 id="x2-2-4-attribuut-en-relatiesoort-details"><bdi class="secno">2.2.4 </bdi>Attribuut- en relatiesoort details  </h4><a class="self-link" href="#attribuut-en-relatiesoort-details" aria-label="Permalink for Section 2.2.4"></a></div>
+            <section id="objecttype-details"><div class="header-wrapper"><h5 id="x2-2-4-1-objecttype-details"><bdi class="secno">2.2.4.1 </bdi>Objecttype details  </h5><a class="self-link" href="#objecttype-details" aria-label="Permalink for Section 2.2.4.1"></a></div>
+               <section id="detail_class_Golfbaan_Registratie"><div class="header-wrapper"><h6 id="x2-2-4-1-1-registratie"><bdi class="secno">2.2.4.1.1 </bdi>   Registratie</h6><a class="self-link" href="#detail_class_Golfbaan_Registratie" aria-label="Permalink for Section 2.2.4.1.1"></a></div>
+                  <div class="deepheader" id="detail_attribute_Golfbaan_Registratie_versie"><h7>Attribuutsoort details  <a href="#global_class_Golfbaan_Registratie">Registratie</a> versie</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>versie</td></tr><tr><th>Herkomst</th><td>
+                              nen 3610
+                           </td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>Versieaanduiding van een informatieobject.</p>
+                                 
+                           </td></tr><tr><th>Herkomst definitie</th><td>
+                              nen 3610
+                           </td></tr><tr><th>Datum opname</th><td>
+                              2022-06-01
+                           </td></tr><tr><th>Formaat</th><td>
+                              <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20200225/#primitive-datatypes">Character­String</a>
+                           </td></tr><tr><th>Lengte</th><td>1..50</td></tr><tr><th>Kardinaliteit</th><td>0 .. 1</td></tr><tr><th>Indicatie authentiek</th><td>Overig</td></tr><tr><th>Toelichting</th><td>
+                              Een versie van een informatieobject is een toestand van een informatieobject met zijn gegevens op een bepaald moment in de tijd. Het attribuut versie maakt geen deel uit van de identificatie van het object, maar kan worden gebruikt om verschillende instanties van hetzelfde informatieobject te identificeren.
+                           </td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr><tr><th>Indicatie identificerend</th><td>Nee</td></tr></tbody></table>
+                  </div>
+                  <div class="deepheader" id="detail_attribute_Golfbaan_Registratie_beginGeldigheid"><h7>Attribuutsoort details  <a href="#global_class_Golfbaan_Registratie">Registratie</a> begin­Geldigheid</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>begin­Geldigheid</td></tr><tr><th>Herkomst</th><td>
+                              nen 3610
+                           </td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>Start van de periode waarop deze versie van het informatieobject geldig is.</p>
+                                 
+                           </td></tr><tr><th>Herkomst definitie</th><td>
+                              nen 3610
+                           </td></tr><tr><th>Datum opname</th><td>
+                              2022-06-01
+                           </td></tr><tr><th>Formaat</th><td>DATE</td></tr><tr><th>Kardinaliteit</th><td>1</td></tr><tr><th>Indicatie authentiek</th><td>Overig</td></tr><tr><th>Toelichting</th><td>
+                              Er zijn verschillende datatypen voor de representatie van een tijdsaanduiding: afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit typen TM_Instant, Date of Date­Time. De start van een periode is het begin van de tijdsaanduiding; het ‘vanaf-moment’. Bij een datum (date) is dat het begin van die dag.
+                           </td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr><tr><th>Indicatie identificerend</th><td>Nee</td></tr></tbody></table>
+                  </div>
+                  <div class="deepheader" id="detail_attribute_Golfbaan_Registratie_eindGeldigheid"><h7>Attribuutsoort details  <a href="#global_class_Golfbaan_Registratie">Registratie</a> eind­Geldigheid</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>eind­Geldigheid</td></tr><tr><th>Herkomst</th><td>
+                              nen 3610
+                           </td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>Eind van de periode waarop deze versie van het informatieobject geldig is. De periode is tot aan deze tijdsaanduiding. Wanneer deze waarde niet is ingevuld, is de versie nog geldig.</p>
+                                 
+                           </td></tr><tr><th>Herkomst definitie</th><td>
+                              nen 3610
+                           </td></tr><tr><th>Datum opname</th><td>
+                              2022-06-01
+                           </td></tr><tr><th>Formaat</th><td>DATE</td></tr><tr><th>Kardinaliteit</th><td>0 .. 1</td></tr><tr><th>Indicatie authentiek</th><td>Overig</td></tr><tr><th>Toelichting</th><td>
+                              Vanaf het begin van deze tijdsaanduiding is de instantie niet meer geldig. Er zijn verschillende datatypen voor de representatie van een tijdsaanduiding: afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit typen TM_Instant, Date of Date­Time. Het eind van de periode is tot het begin van de tijdsaanduiding; het ‘tot-moment’.
+                           </td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr><tr><th>Indicatie identificerend</th><td>Nee</td></tr></tbody></table>
+                  </div>
+               </section>
+               <section id="detail_class_Golfbaan_Parcours"><div class="header-wrapper"><h6 id="x2-2-4-1-2-parcours"><bdi class="secno">2.2.4.1.2 </bdi>   Parcours</h6><a class="self-link" href="#detail_class_Golfbaan_Parcours" aria-label="Permalink for Section 2.2.4.1.2"></a></div>
+                  <div class="deepheader" id="detail_attribute_Golfbaan_Parcours_geometry"><h7>Attribuutsoort details  <a href="#global_class_Golfbaan_Parcours">Parcours</a> geometry</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>geometry</td></tr><tr><th>Herkomst</th><td>
+                              imgolf
+                           </td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>Multi-vlak geometrie</p>
+                                 
+                           </td></tr><tr><th>Herkomst definitie</th><td>
+                              imgolf
+                           </td></tr><tr><th>Formaat</th><td>
+                              GM_Multi­Surface
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr><tr><th>Toelichting</th><td>
+                              Coordinaten van het vlak van het parcours. Het kan een multivlak zijn. 
+                           </td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr><tr><th>Indicatie identificerend</th><td>Nee</td></tr></tbody></table>
+                  </div>
+                  <div class="deepheader" id="detail_attribute_Golfbaan_Parcours_nummer"><h7>Attribuutsoort details  <a href="#global_class_Golfbaan_Parcours">Parcours</a> nummer</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>nummer</td></tr><tr><th>Herkomst</th><td>
+                              imgolf
+                           </td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>De getalaanduiding voor het parcours. </p>
+                                 
+                           </td></tr><tr><th>Herkomst definitie</th><td>
+                              imgolf
+                           </td></tr><tr><th>Formaat</th><td>
+                              <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20200225/#primitive-datatypes">Integer</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr><tr><th>Toelichting</th><td>
+                              Meestal heeft een golfbaan 18 'holes' of parcoursen. De eerste heeft als waarde van dit attribuut 1, de laatste 18.
+                           </td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr><tr><th>Indicatie identificerend</th><td>Nee</td></tr></tbody></table>
+                  </div>
+                  <div class="deepheader" id="detail_attribute_Golfbaan_Parcours_par"><h7>Attribuutsoort details  <a href="#global_class_Golfbaan_Parcours">Parcours</a> par</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>par</td></tr><tr><th>Herkomst</th><td>
+                              imgolf
+                           </td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>het aantal slagen waarin een gemiddelde professionele golfer een hole zou moeten kunnen spelen.</p>
+                                 
+                           </td></tr><tr><th>Herkomst definitie</th><td>
+                              
+                                    <a href="http://nl.wikipedia.org/wiki/Par_(golf)" target="_blank">http://nl.wikipedia.org/wiki/Par_(golf)</a>
+                                 
+                           </td></tr><tr><th>Formaat</th><td>
+                              <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20200225/#primitive-datatypes">Integer</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr><tr><th>Toelichting</th><td>
+                              Par staat voor Professional Average Result.
+                           </td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr><tr><th>Indicatie identificerend</th><td>Nee</td></tr></tbody></table>
+                  </div>
+                  <div class="deepheader" id="detail_association_Golfbaan_Parcours_parcoursDeel"><h7>Relatiesoort details  <a href="#global_class_Golfbaan_Parcours">Parcours</a> bestaat uit</h7>
+                     
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>bestaat uit</td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>Een deel van het parcours.</p>
+                                 
+                           </td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_Golfbaan_ParcoursDeel">Parcours­Deel</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1 .. *</td></tr><tr><th>Toelichting</th><td>
+                              Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.
+                           </td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr></tbody></table>
+                  </div>
+                  <div class="deepheader" id="detail_association_Golfbaan_Parcours_hindernis"><h7>Relatiesoort details  <a href="#global_class_Golfbaan_Parcours">Parcours</a> bevat</h7>
+                     
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>bevat</td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>De hindernis die bij het parcours hoort.</p>
+                                 
+                           </td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_Golfbaan_Hindernis">Hindernis</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>0 .. 1</td></tr><tr><th>Toelichting</th><td>
+                              Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.
+                           </td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr></tbody></table>
+                  </div>
+                  <div class="deepheader" id="detail_association_Golfbaan_Parcours_afslagplaats"><h7>Relatiesoort details  <a href="#global_class_Golfbaan_Parcours">Parcours</a> heeft</h7>
+                     
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>heeft</td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>De afslagplaats van dit parcours.</p>
+                                 
+                           </td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_Golfbaan_Tee">Tee</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1 .. *</td></tr><tr><th>Toelichting</th><td>
+                              Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.
+                           </td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr></tbody></table>
+                  </div>
+               </section>
+               <section id="detail_class_Golfbaan_Golfbaan"><div class="header-wrapper"><h6 id="x2-2-4-1-3-golfbaan"><bdi class="secno">2.2.4.1.3 </bdi>   Golfbaan</h6><a class="self-link" href="#detail_class_Golfbaan_Golfbaan" aria-label="Permalink for Section 2.2.4.1.3"></a></div>
+                  <div class="deepheader" id="detail_attribute_Golfbaan_Golfbaan_naam"><h7>Attribuutsoort details  <a href="#global_class_Golfbaan_Golfbaan">Golfbaan</a> naam</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>naam</td></tr><tr><th>Herkomst</th><td>
+                              imgolf
+                           </td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>De benaming van de golfbaan.</p>
+                                 
+                           </td></tr><tr><th>Herkomst definitie</th><td>
+                              imgolf
+                           </td></tr><tr><th>Datum opname</th><td>
+                              2022-06-01
+                           </td></tr><tr><th>Formaat</th><td>
+                              <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20200225/#primitive-datatypes">Character­String</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr><tr><th>Toelichting</th><td>
+                              De naam wordt weergegeven in de lijst van alle golfbanen van nederland. 
+                           </td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr><tr><th>Indicatie identificerend</th><td>Nee</td></tr></tbody></table>
+                  </div>
+                  <div class="deepheader" id="detail_attribute_Golfbaan_Golfbaan_geometry"><h7>Attribuutsoort details  <a href="#global_class_Golfbaan_Golfbaan">Golfbaan</a> geometry</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>geometry</td></tr><tr><th>Herkomst</th><td>
+                              imgolf
+                           </td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>Vlakgeometrie van het totale golfterrein.</p>
+                                 
+                           </td></tr><tr><th>Herkomst definitie</th><td>
+                              imgolf
+                           </td></tr><tr><th>Datum opname</th><td>
+                              2022-06-01
+                           </td></tr><tr><th>Formaat</th><td>
+                              GM_Multi­Surface
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr><tr><th>Toelichting</th><td>
+                              Omvat alle parcoursen (holes) op de golfbaan maar ook de kantine, het parkeerterrein, de oefengreen en de drivingrange.
+                           </td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr><tr><th>Indicatie identificerend</th><td>Nee</td></tr></tbody></table>
+                  </div>
+                  <div class="deepheader" id="detail_attribute_Golfbaan_Golfbaan_typeGolfbaan"><h7>Attribuutsoort details  <a href="#global_class_Golfbaan_Golfbaan">Golfbaan</a> type­Golfbaan</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>type­Golfbaan</td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>Het soort golfbaan, ingedeeld naar het type terrein waar zij zich bevindt.</p>
+                                 
+                           </td></tr><tr><th>Formaat</th><td>
+                              <a class="link" href="#detail_class_Waardelijsten_TypeGolfbaan">Type­Golfbaan</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr><tr><th>Indicatie classificerend</th><td>Nee</td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr><tr><th>Indicatie identificerend</th><td>Nee</td></tr></tbody></table>
+                  </div>
+                  <div class="deepheader" id="detail_association_Golfbaan_Golfbaan_hole"><h7>Relatiesoort details  <a href="#global_class_Golfbaan_Golfbaan">Golfbaan</a> omvat</h7>
+                     
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>omvat</td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>Een hole of parcours als onderdeel van deze golfbaan.</p>
+                                    <p>Toelichting:
+Een parcours, meestal Hole genoemd, is een terrein met verschillende onderdelen zoals het afslagpunt, de fairway, de green en de hole. </p>
+                                 
+                           </td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_Golfbaan_Parcours">Parcours</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>0 .. *</td></tr><tr><th>Toelichting</th><td>
+                              Een parcours, meestal Hole genoemd, is een terrein met verschillende onderdelen zoals het afslagpunt, de fairway, de green en de hole. 
+                           </td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr></tbody></table>
+                  </div>
+               </section>
+               <section id="detail_class_Golfbaan_IMGolfobject"><div class="header-wrapper"><h6 id="x2-2-4-1-4-imgolf-object"><bdi class="secno">2.2.4.1.4 </bdi>   IMGolf-object</h6><a class="self-link" href="#detail_class_Golfbaan_IMGolfobject" aria-label="Permalink for Section 2.2.4.1.4"></a></div>
+                  <div class="deepheader" id="detail_attribute_Golfbaan_IMGolfobject_identificatie"><h7>Attribuutsoort details  <a href="#global_class_Golfbaan_IMGolfobject">IMGolf-object</a> identificatie</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>identificatie</td></tr><tr><th>Alias</th><td>
+                              <alias>identificatie</alias>
+                           </td></tr><tr><th>Herkomst</th><td>
+                              nen 3610
+                           </td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>Unieke identificatiecode van een informatieobject binnen de context van een registratie.
+Toelichting:  ‘identificatie’ is de identificatiecode die een object heeft binnen een registratie of binnen een ketenproces voor data-uitwisseling. Binnen de registratie of de data-uitwisseling is het object uniek identificeerbaar. In combinatie met het attribuut domein wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties, uitwisselprocessen en ook wereldwijd uniek.
+De reguliere expressie voor de toegestane tekens is: [a-z­A-Z| 0-9| _| .| -|\/|:|]</p>
+                                 
+                           </td></tr><tr><th>Herkomst definitie</th><td>
+                              nen 3610
+                           </td></tr><tr><th>Datum opname</th><td>
+                              2022-06-01
+                           </td></tr><tr><th>Formaat</th><td>
+                              <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20200225/#primitive-datatypes">Character­String</a>
+                           </td></tr><tr><th>Patroon</th><td>
+                              De reguliere expressie voor de toegestane tekens is: [a-z­A-Z| 0-9| _| .| -|\/|:|]
+                           </td></tr><tr><th>Formeel patroon</th><td>[a-z­A-Z| 0-9| _| .| -|\/|:|]</td></tr><tr><th>Kardinaliteit</th><td>1</td></tr><tr><th>Indicatie authentiek</th><td>Overig</td></tr><tr><th>Toelichting</th><td>
+                              
+                                    <p> ‘identificatie’ is de identificatiecode die een object heeft binnen een registratie of binnen een ketenproces voor data-uitwisseling. Binnen de registratie of de data-uitwisseling is het object uniek identificeerbaar. In combinatie met het attribuut domein wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties, uitwisselprocessen en ook wereldwijd uniek.</p>
+                                    <p></p>
+                                    <p>De reguliere expressie voor de toegestane tekens is: [a-z­A-Z| 0-9| _| .| -|\/|:|]</p>
+                                 
+                           </td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr><tr><th>Indicatie identificerend</th><td>Ja</td></tr></tbody></table>
+                  </div>
+                  <div class="deepheader" id="detail_attribute_Golfbaan_IMGolfobject_domein"><h7>Attribuutsoort details  <a href="#global_class_Golfbaan_IMGolfobject">IMGolf-object</a> domein</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>domein</td></tr><tr><th>Herkomst</th><td>
+                              nen 3610
+                           </td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>Definitie: Aanduiding van het domein waarbinnen de identificatie uniek is.
+Toelichting: Het attribuut ‘domein’ is een unieke verwijzing naar de registratie of ketenproces verantwoordelijke entiteit die de identificatie uitdeelt of regels daartoe heeft opgesteld. In combinatie met het attribuut identificatie wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties en ook mondiaal uniek.</p>
+                                 
+                           </td></tr><tr><th>Herkomst definitie</th><td>
+                              nen 3610
+                           </td></tr><tr><th>Datum opname</th><td>
+                              2022-06-01
+                           </td></tr><tr><th>Formaat</th><td>
+                              <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20200225/#primitive-datatypes">Character­String</a>
+                           </td></tr><tr><th>Patroon</th><td>
+                              De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, oftewel het waardenbereik, uitgedrukt in een specifieke structuur.
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr><tr><th>Indicatie authentiek</th><td>Overig</td></tr><tr><th>Toelichting</th><td>
+                              Het attribuut ‘domein’ is een unieke verwijzing naar de registratie of ketenproces verantwoordelijke entiteit die de identificatie uitdeelt of regels daartoe heeft opgesteld. In combinatie met het attribuut identificatie wordt een object hiermee uniek identificeerbaar op het niveau van verschillende registraties en ook mondiaal uniek.
+                           </td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr><tr><th>Indicatie identificerend</th><td>Ja</td></tr></tbody></table>
+                  </div>
+                  <div class="deepheader" id="detail_association_Golfbaan_IMGolfobject_registratiegegevens"><h7>Relatiesoort details  <a href="#global_class_Golfbaan_IMGolfobject">IMGolf-object</a> geregistreerd­Met</h7>
+                     
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>geregistreerd­Met</td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>Gegevens over de registratie van het object als informatieobject.</p>
+                                 
+                           </td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_Golfbaan_Registratie">Registratie</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr><tr><th>Toelichting</th><td>
+                              De registratiegegevens zijn de versie en tijdlijngegevens die horen bij het registreren van één versie van het informatieobject. Ze horen als metadata bij de gegevensset van het informatieobject.
+                           </td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr></tbody></table>
+                  </div>
+               </section>
+               <section id="detail_class_Golfbaan_Hindernis"><div class="header-wrapper"><h6 id="x2-2-4-1-5-hindernis"><bdi class="secno">2.2.4.1.5 </bdi>   Hindernis</h6><a class="self-link" href="#detail_class_Golfbaan_Hindernis" aria-label="Permalink for Section 2.2.4.1.5"></a></div>
+                  <div class="deepheader" id="detail_attribute_Golfbaan_Hindernis_typeHindernis"><h7>Attribuutsoort details  <a href="#global_class_Golfbaan_Hindernis">Hindernis</a> type­Hindernis</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>type­Hindernis</td></tr><tr><th>Herkomst</th><td>
+                              imgolf
+                           </td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>Het soort hindernis.</p>
+                                 
+                           </td></tr><tr><th>Herkomst definitie</th><td>
+                              imgolf
+                           </td></tr><tr><th>Datum opname</th><td>
+                              2022-06-01
+                           </td></tr><tr><th>Formaat</th><td>
+                              <a class="link" href="#detail_class_Waardelijsten_TypeHindernis">Type­Hindernis</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr><tr><th>Toelichting</th><td>
+                              Dit is altijd een zandbunker of een waterpartij. Ook bomen en incidentele waterplassen kunnen een hindernis zijn, maar deze zijn niet gemodelleerd. Bomen worden wellicht in de 2.0 versie opgenomen.
+                           </td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr><tr><th>Indicatie identificerend</th><td>Nee</td></tr></tbody></table>
+                  </div>
+                  <div class="deepheader" id="detail_attribute_Golfbaan_Hindernis_geometrie"><h7>Attribuutsoort details  <a href="#global_class_Golfbaan_Hindernis">Hindernis</a> geometrie</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>geometrie</td></tr><tr><th>Herkomst</th><td>
+                              imgolf
+                           </td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>Vlakgeometrie</p>
+                                 
+                           </td></tr><tr><th>Herkomst definitie</th><td>
+                              imgolf
+                           </td></tr><tr><th>Datum opname</th><td>
+                              2022-06-01
+                           </td></tr><tr><th>Formaat</th><td>
+                              GM_Surface
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr><tr><th>Toelichting</th><td>
+                              De coordinaten van het vlak waar het obstakel zich bevindt.
+                           </td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr><tr><th>Indicatie identificerend</th><td>Nee</td></tr></tbody></table>
+                  </div>
+               </section>
+               <section id="detail_class_Golfbaan_ParcoursDeel"><div class="header-wrapper"><h6 id="x2-2-4-1-6-parcours-deel"><bdi class="secno">2.2.4.1.6 </bdi>   Parcours­Deel</h6><a class="self-link" href="#detail_class_Golfbaan_ParcoursDeel" aria-label="Permalink for Section 2.2.4.1.6"></a></div>
+                  <div class="deepheader" id="detail_attribute_Golfbaan_ParcoursDeel_TypeParcoursDeel"><h7>Attribuutsoort details  <a href="#global_class_Golfbaan_ParcoursDeel">Parcours­Deel</a> Type­Parcours­Deel</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Type­Parcours­Deel</td></tr><tr><th>Herkomst</th><td>
+                              imgolf
+                           </td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>Het soort parcoursdeel.</p>
+                                 
+                           </td></tr><tr><th>Herkomst definitie</th><td>
+                              imgolf
+                           </td></tr><tr><th>Formaat</th><td>
+                              <a class="link" href="#detail_class_Waardelijsten_TypeParcoursDeel">Type­Parcours­Deel</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr><tr><th>Toelichting</th><td>
+                              Een parcours kan worden verdeeld in een aantal onderdelen, zoals fairway of green.
+                           </td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr><tr><th>Indicatie identificerend</th><td>Nee</td></tr></tbody></table>
+                  </div>
+                  <div class="deepheader" id="detail_attribute_Golfbaan_ParcoursDeel_geometry"><h7>Attribuutsoort details  <a href="#global_class_Golfbaan_ParcoursDeel">Parcours­Deel</a> geometry</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>geometry</td></tr><tr><th>Herkomst</th><td>
+                              imgolf
+                           </td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>Vlakgeometrie.</p>
+                                 
+                           </td></tr><tr><th>Herkomst definitie</th><td>
+                              imgolf
+                           </td></tr><tr><th>Formaat</th><td>
+                              <a class="link" href="#detail_class_Golfbaan_VlakMultivlak">Vlak­Multivlak</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr><tr><th>Toelichting</th><td>
+                              Voor elk onderdeel van een parcours worden hier de coordinaten van het vlak opgenomen. Als bijvoorbeeld de fairway in twee stukken wordt verdeeld door een waterpartij, worden dit twee aparte parcoursdelen met ieder een vlak.
+                           </td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr><tr><th>Indicatie identificerend</th><td>Nee</td></tr></tbody></table>
+                  </div>
+                  <div class="deepheader" id="detail_association_Golfbaan_ParcoursDeel_hole"><h7>Relatiesoort details  <a href="#global_class_Golfbaan_ParcoursDeel">Parcours­Deel</a> heeft</h7>
+                     
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>heeft</td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>De hole die bij dit deel van het parcours hoort.</p>
+                                 
+                           </td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_Golfbaan_Hole">Hole</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr><tr><th>Toelichting</th><td>
+                              Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.
+                           </td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr></tbody></table>
+                  </div>
+                  <div class="deepheader" id="detail_d12868e4694"><h7>Constraint details  <a href="#global_class_Golfbaan_ParcoursDeel">Parcours­Deel</a> Hole­Within­Green</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>OCL</th><td>Inside(hole.geometrie,this-&gt;geometrie)</td></tr></tbody></table>
+                  </div>
+               </section>
+               <section id="detail_class_Golfbaan_Tee"><div class="header-wrapper"><h6 id="x2-2-4-1-7-tee"><bdi class="secno">2.2.4.1.7 </bdi>   Tee</h6><a class="self-link" href="#detail_class_Golfbaan_Tee" aria-label="Permalink for Section 2.2.4.1.7"></a></div>
+                  <div class="deepheader" id="detail_attribute_Golfbaan_Tee_geometry"><h7>Attribuutsoort details  <a href="#global_class_Golfbaan_Tee">Tee</a> geometry</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>geometry</td></tr><tr><th>Herkomst</th><td>
+                              imgolf
+                           </td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>Vlakgeometrie</p>
+                                 
+                           </td></tr><tr><th>Herkomst definitie</th><td>
+                              
+                                    <a href="http://nl.wikipedia.org/wiki/Golfbaan" target="_blank">http://nl.wikipedia.org/wiki/Golfbaan</a>
+                                 
+                           </td></tr><tr><th>Datum opname</th><td>
+                              2022-06-01
+                           </td></tr><tr><th>Formaat</th><td>
+                              GM_Surface
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr><tr><th>Toelichting</th><td>
+                              De exacte plaats op de tee waar men moet beginnen wordt aangegeven door een tee-marker, waarvan er meerdere kunnen zijn. Meestal zijn er aparte tee-markers voor dames en heren om te compenseren voor het verschil in kracht. In dit model wordt alleen het vlak opgenomen, waarbinnen alle tee-markers zich bevinden.
+                           </td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr><tr><th>Indicatie identificerend</th><td>Nee</td></tr></tbody></table>
+                  </div>
+               </section>
+               <section id="detail_class_Golfbaan_Hole"><div class="header-wrapper"><h6 id="x2-2-4-1-8-hole"><bdi class="secno">2.2.4.1.8 </bdi>   Hole</h6><a class="self-link" href="#detail_class_Golfbaan_Hole" aria-label="Permalink for Section 2.2.4.1.8"></a></div>
+                  <div class="deepheader" id="detail_attribute_Golfbaan_Hole_geometrie"><h7>Attribuutsoort details  <a href="#global_class_Golfbaan_Hole">Hole</a> geometrie</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>geometrie</td></tr><tr><th>Herkomst</th><td>
+                              imgolf
+                           </td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>Puntgeometrie</p>
+                                 
+                           </td></tr><tr><th>Herkomst definitie</th><td>
+                              imgolf
+                           </td></tr><tr><th>Datum opname</th><td>
+                              2022-06-01
+                           </td></tr><tr><th>Formaat</th><td>
+                              GM_Point
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr><tr><th>Toelichting</th><td>
+                              Wijzigt regelmatig. De nieuwe Hole lokaties worden verspreid onder de leden en deelnemers aan wedstrijden.
+                           </td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr><tr><th>Indicatie identificerend</th><td>Nee</td></tr></tbody></table>
+                  </div>
+                  <div class="deepheader" id="detail_association_Golfbaan_Hole_greenInHole"><h7>Relatiesoort details  <a href="#global_class_Golfbaan_Hole">Hole</a> binnen</h7>
+                     
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>binnen</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                              <a class="link" href="#global_class_Golfbaan_Green">Green</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr></tbody></table>
+                  </div>
+               </section>
+            </section>
+            <section id="gegevensgroeptype-details"><div class="header-wrapper"><h5 id="x2-2-4-2-gegevensgroeptype-details"><bdi class="secno">2.2.4.2 </bdi>Gegevensgroeptype details  </h5><a class="self-link" href="#gegevensgroeptype-details" aria-label="Permalink for Section 2.2.4.2"></a></div>
+               <section id="detail_class_Golfbaan_ToegangGolfbaan"><div class="header-wrapper"><h6 id="x2-2-4-2-1-gegevensgroeptype-toegang-golfbaan"><bdi class="secno">2.2.4.2.1 </bdi>Gegevensgroeptype   Toegang­Golfbaan</h6><a class="self-link" href="#detail_class_Golfbaan_ToegangGolfbaan" aria-label="Permalink for Section 2.2.4.2.1"></a></div>
+                  <div class="deepheader" id="detail_attribute_Golfbaan_ToegangGolfbaan_alleenVoorLeden"><h7>Attribuutsoort details  <a href="#global_class_Golfbaan_ToegangGolfbaan">Toegang­Golfbaan</a> alleen­Voor­Leden</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>alleen­Voor­Leden</td></tr><tr><th>Herkomst</th><td>
+                              IMGolf
+                           </td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>Geeft aan of de golfbaan alleen voor leden van de vereniging toegankelijk is.</p>
+                                 
+                           </td></tr><tr><th>Herkomst definitie</th><td>
+                              IMGolf
+                           </td></tr><tr><th>Datum opname</th><td>
+                              2022-06-01
+                           </td></tr><tr><th>Formaat</th><td>BOOLEAN</td></tr><tr><th>Kardinaliteit</th><td>1</td></tr><tr><th>Toelichting</th><td>
+                              Als de golfbaan niet alleen voor leden is, is ze dus openbaar en mag iedere golfer er komen spelen.
+                           </td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr><tr><th>Indicatie identificerend</th><td>Nee</td></tr></tbody></table>
+                  </div>
+                  <div class="deepheader" id="detail_attribute_Golfbaan_ToegangGolfbaan_vereisten"><h7>Attribuutsoort details  <a href="#global_class_Golfbaan_ToegangGolfbaan">Toegang­Golfbaan</a> vereisten</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>vereisten</td></tr><tr><th>Herkomst</th><td>
+                              IMGolf
+                           </td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>Harde vereisten voor toegang tot de golfbaan.</p>
+                                 
+                           </td></tr><tr><th>Herkomst definitie</th><td>
+                              IMGolf
+                           </td></tr><tr><th>Datum opname</th><td>
+                              2022-06-01
+                           </td></tr><tr><th>Formaat</th><td>
+                              <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20200225/#primitive-datatypes">Character­String</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>0 .. 1</td></tr><tr><th>Toelichting</th><td>
+                              Hier kan bijvoorbeeld worden opgenomen dat er toegangsvereisten zijn zoals het hebben van een baanpermissie of GVB.
+                           </td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr><tr><th>Indicatie identificerend</th><td>Nee</td></tr></tbody></table>
+                  </div>
+                  <div class="deepheader" id="detail_attribute_Golfbaan_ToegangGolfbaan_etiquette"><h7>Attribuutsoort details  <a href="#global_class_Golfbaan_ToegangGolfbaan">Toegang­Golfbaan</a> etiquette</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>etiquette</td></tr><tr><th>Herkomst</th><td>
+                              imgolf
+                           </td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>Beschrijving van de niet-harde regels op de golfbaan.</p>
+                                 
+                           </td></tr><tr><th>Herkomst definitie</th><td>
+                              imgolf
+                           </td></tr><tr><th>Datum opname</th><td>
+                              2022-06-01
+                           </td></tr><tr><th>Formaat</th><td>
+                              <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20200225/#primitive-datatypes">Character­String</a>
+                           </td></tr><tr><th>Kardinaliteit</th><td>0 .. 1</td></tr><tr><th>Toelichting</th><td>
+                              Dit zijn de regels waaraan men zich formeel niet hoeft te houden, maar er wordt wel zeer de prijs op gesteld als je het doet. Hier kan bijvoorbeeld de kledingetiquette worden beschreven.
+                           </td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr><tr><th>Indicatie identificerend</th><td>Nee</td></tr></tbody></table>
+                  </div>
+               </section>
+            </section>
+            
+            <section id="keuze"><div class="header-wrapper"><h5 id="x2-2-4-3-keuze"><bdi class="secno">2.2.4.3 </bdi>Keuze  </h5><a class="self-link" href="#keuze" aria-label="Permalink for Section 2.2.4.3"></a></div>
+               <section id="detail_class_Golfbaan_VlakMultivlak"><div class="header-wrapper"><h6 id="x2-2-4-3-1-keuze-vlak-multivlak"><bdi class="secno">2.2.4.3.1 </bdi>Keuze   Vlak­Multivlak</h6><a class="self-link" href="#detail_class_Golfbaan_VlakMultivlak" aria-label="Permalink for Section 2.2.4.3.1"></a></div>
+                  <div class="deepheader" id="detail_attribute_Golfbaan_VlakMultivlak_multivlak"><h7>Keuze element  <a href="#global_class_Golfbaan_VlakMultivlak">Vlak­Multivlak</a> multivlak</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>multivlak</td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>Een geometrie uit meerdere vlakken.</p>
+                                 
+                           </td></tr><tr><th>Formaat</th><td>
+                              GM_Multi­Surface
+                           </td></tr></tbody></table>
+                  </div>
+                  <div class="deepheader" id="detail_attribute_Golfbaan_VlakMultivlak_vlak"><h7>Keuze element  <a href="#global_class_Golfbaan_VlakMultivlak">Vlak­Multivlak</a> vlak</h7>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>vlak</td></tr><tr><th>Definitie</th><td>
+                              
+                                    <p>Een vlak geometrie.</p>
+                                 
+                           </td></tr><tr><th>Formaat</th><td>
+                              GM_Surface
+                           </td></tr></tbody></table>
+                  </div>
+               </section>
+            </section>
+            
+            
+         </section></section><section id="global_package_Waardelijsten"><div class="header-wrapper"><h3 id="x2-3-domein-waardelijsten"><bdi class="secno">2.3 </bdi>Domein   Waardelijsten</h3><a class="self-link" href="#global_package_Waardelijsten" aria-label="Permalink for Section 2.3"></a></div><section id="enumeraties"><div class="header-wrapper"><h4 id="x2-3-1-enumeraties"><bdi class="secno">2.3.1 </bdi>Enumeraties   </h4><a class="self-link" href="#enumeraties" aria-label="Permalink for Section 2.3.1"></a></div>
+            <section id="global_class_Waardelijsten_TypeHindernis"><div class="header-wrapper"><h5 id="x2-3-1-1-enumeratie-type-hindernis"><bdi class="secno">2.3.1.1 </bdi>Enumeratie   Type­Hindernis</h5><a class="self-link" href="#global_class_Waardelijsten_TypeHindernis" aria-label="Permalink for Section 2.3.1.1"></a></div>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Definitie</th><td>
+                        
+                              <p>Het soort obstakel.</p>
+                           
+                     </td></tr><tr><th>Toelichting</th><td>
+                        Een waterpartij of zandbunker.
+                     </td></tr></tbody></table>
+            </section>
+            <section id="global_class_Waardelijsten_TypeParcoursDeel"><div class="header-wrapper"><h5 id="x2-3-1-2-enumeratie-type-parcours-deel"><bdi class="secno">2.3.1.2 </bdi>Enumeratie   Type­Parcours­Deel</h5><a class="self-link" href="#global_class_Waardelijsten_TypeParcoursDeel" aria-label="Permalink for Section 2.3.1.2"></a></div>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Definitie</th><td>
+                        
+                              <p>Het soort parcoursdeel.</p>
+                           
+                     </td></tr><tr><th>Toelichting</th><td>
+                        
+                              <p>Een fairway, green, rough, of semi-rough.</p>
+                              <p></p>
+                           
+                     </td></tr></tbody></table>
+            </section>
+            <section id="global_class_Waardelijsten_TypeGolfbaan"><div class="header-wrapper"><h5 id="x2-3-1-3-enumeratie-type-golfbaan"><bdi class="secno">2.3.1.3 </bdi>Enumeratie   Type­Golfbaan</h5><a class="self-link" href="#global_class_Waardelijsten_TypeGolfbaan" aria-label="Permalink for Section 2.3.1.3"></a></div>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Definitie</th><td>
+                        
+                              <p>Het soort golfbaan.</p>
+                           
+                     </td></tr><tr><th>Toelichting</th><td>
+                        Indeling naar terreintype.
+                     </td></tr></tbody></table>
+            </section>
+         </section></section></section><section id="lis" class="normative"><div class="header-wrapper"><h2 id="x3-inhoud-van-waardelijsten"><bdi class="secno">3. </bdi>Inhoud van waardelijsten</h2><a class="self-link" href="#lis" aria-label="Permalink for Section 3."></a></div><section id="enumeratie-inhoud"><div class="header-wrapper"><h3 id="x3-1-enumeratie-inhoud"><bdi class="secno">3.1 </bdi>Enumeratie inhoud   </h3><a class="self-link" href="#enumeratie-inhoud" aria-label="Permalink for Section 3.1"></a></div><section id="detail_class_Waardelijsten_TypeHindernis"><div class="header-wrapper"><h4 id="x3-1-1-enumeratie-details-type-hindernis"><bdi class="secno">3.1.1 </bdi>Enumeratie details  Type­Hindernis</h4><a class="self-link" href="#detail_class_Waardelijsten_TypeHindernis" aria-label="Permalink for Section 3.1.1"></a></div>
+            <table style="width: 100%;" class="list"><colgroup></colgroup><tbody><tr><td>
+                     <p>Het soort obstakel.</p>
+                  </td></tr></tbody></table>
+            <table style="width: 100%;" class="list"><colgroup style="width: 40%;"></colgroup><colgroup style="width: 60%;"></colgroup><tbody><tr><th>Waarde</th><th>Omschrijving</th></tr><tr><th>waterpartij</th><td>
+                     <p>Een met water gevulde hindernis op een golfbaan.</p>
+                  </td></tr><tr><th>bunker</th><td>
+                     <p>Een met zand gevulde hindernis op een golfbaan.</p>
+                  </td></tr></tbody></table>
+         </section><section id="detail_class_Waardelijsten_TypeParcoursDeel"><div class="header-wrapper"><h4 id="x3-1-2-enumeratie-details-type-parcours-deel"><bdi class="secno">3.1.2 </bdi>Enumeratie details  Type­Parcours­Deel</h4><a class="self-link" href="#detail_class_Waardelijsten_TypeParcoursDeel" aria-label="Permalink for Section 3.1.2"></a></div>
+            <table style="width: 100%;" class="list"><colgroup></colgroup><tbody><tr><td>
+                     <p>Het soort parcoursdeel.</p>
+                  </td></tr></tbody></table>
+            <table style="width: 100%;" class="list"><colgroup style="width: 40%;"></colgroup><colgroup style="width: 60%;"></colgroup><tbody><tr><th>Waarde</th><th>Omschrijving</th></tr><tr><th>fairway</th><td>
+                     <p>Tussen de green en de tee-box gelegen terrein waar het gras wat korter is dan in het eromheen gelegen terrein.</p>
+                  </td></tr><tr><th>green</th><td>
+                     <p>Het laatste deel van het parcours, waar het gras zeer kort wordt gemaaid.</p>
+                  </td></tr><tr><th>rough</th><td>
+                     <p>Onderdeel van een Hole bestaande uit het niet speciaal geprepareerd terrein.</p>
+                  </td></tr><tr><th>semi-rough</th><td>
+                     <p>Het minder kort geschoren gras naast de fairway.</p>
+                  </td></tr></tbody></table>
+         </section><section id="detail_class_Waardelijsten_TypeGolfbaan"><div class="header-wrapper"><h4 id="x3-1-3-enumeratie-details-type-golfbaan"><bdi class="secno">3.1.3 </bdi>Enumeratie details  Type­Golfbaan</h4><a class="self-link" href="#detail_class_Waardelijsten_TypeGolfbaan" aria-label="Permalink for Section 3.1.3"></a></div>
+            <table style="width: 100%;" class="list"><colgroup></colgroup><tbody><tr><td>
+                     <p>Het soort golfbaan.</p>
+                  </td></tr></tbody></table>
+            <table style="width: 100%;" class="list"><colgroup style="width: 40%;"></colgroup><colgroup style="width: 60%;"></colgroup><tbody><tr><th>Waarde</th><th>Omschrijving</th></tr><tr><th>linksbaan</th><td>
+                     <p>Bevindt zich in het gebied vlak langs de kustlijn en kenmerkt zich door het feit dat ze open is (weinig bomen) en relatief hoge rough heeft. Ook zijn de greens en fairways doorgaans vrij hard.</p>
+                  </td></tr><tr><th>bosbaan</th><td>
+                     <p>Bevindt zich doorgaans in bosrijke gebieden.</p>
+                  </td></tr><tr><th>parkbaan</th><td>
+                     <p>Bevindt zich niet in een bosrijk gebied of aan de kust.</p>
+                  </td></tr></tbody></table>
+         </section></section></section>
+<section id="meer-inhoud"><div class="header-wrapper"><h2 id="x4-meer-inhoud"><bdi class="secno">4. </bdi>Meer inhoud</h2><a class="self-link" href="#meer-inhoud" aria-label="Permalink for Section 4."></a></div>
+<section id="definities"><div class="header-wrapper"><h3 id="x4-1-definities"><bdi class="secno">4.1 </bdi>Definities</h3><a class="self-link" href="#definities" aria-label="Permalink for Section 4.1"></a></div>
 <p><dfn id="dfn-definitie" tabindex="0" aria-haspopup="dialog">Definitie</dfn>: Een definitie is een beschrijving van een woord. Een ander woord voor <em>definitie</em> is betekenis of beschrijving.</p>
-</section><section id="afbeeldingen"><div class="header-wrapper"><h3 id="x2-2-afbeeldingen"><bdi class="secno">2.2 </bdi>Afbeeldingen</h3><a class="self-link" href="#afbeeldingen" aria-label="Permalink for Section 2.2"></a></div>
+</section><section id="afbeeldingen"><div class="header-wrapper"><h3 id="x4-2-afbeeldingen"><bdi class="secno">4.2 </bdi>Afbeeldingen</h3><a class="self-link" href="#afbeeldingen" aria-label="Permalink for Section 4.2"></a></div>
 <p>Afbeeldingen krijgen een nummer en vermelding in de figurenlijst <a href="#tof" data-matched-text="[[[#tof]]]" class="sec-ref">Index</a>.</p>
 <p>
       </p><figure id="fig-onderschrift">
         <img src="media/Bomos_levenscyclus.svg" alt="Tekstueel alternatief voor toegankelijkheid">
-        <figcaption><a class="self-link" href="#fig-onderschrift">Figuur <bdi class="figno">1</bdi></a> <span class="fig-title">Onderschrift</span></figcaption>
+        <figcaption><a class="self-link" href="#fig-onderschrift">Figuur <bdi class="figno">3</bdi></a> <span class="fig-title">Onderschrift</span></figcaption>
       </figure>
     <p></p>
-</section><section id="referenties"><div class="header-wrapper"><h3 id="x2-3-referenties"><bdi class="secno">2.3 </bdi>Referenties</h3><a class="self-link" href="#referenties" aria-label="Permalink for Section 2.3"></a></div>
+</section><section id="referenties"><div class="header-wrapper"><h3 id="x4-3-referenties"><bdi class="secno">4.3 </bdi>Referenties</h3><a class="self-link" href="#referenties" aria-label="Permalink for Section 4.3"></a></div>
 <p>Referenties kunnen op drie plaatsen staan:</p>
 <ul>
 <li>In SpecRef <a href="https://www.specref.org/">Specref</a></li>
@@ -1493,7 +2584,7 @@ Dit hoofdstuk is toegevoegd met <code>class="informative"</code> in <code>config
 </ul>
 <p>Referentie uit organisatie lijst [<cite><a class="bibref" data-link-type="biblio" href="#bib-semver" title="Semantic Versioning 2.0.0">SemVer</a></cite>] of de locale lijst [<cite><a class="bibref" data-link-type="biblio" href="#bib-mim12" title="MIM - Metamodel Informatie Modellering (Versie 1.2)">MIM12</a></cite>]. Lijst staat in <code>organisation-config.js</code>. Alleen referenties die in de tekst voorkomen worden getoond.</p>
 <p>We gebruiken een <a href="#dfn-definitie" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-definitie-1">definitie</a> om een woord te omschrijven.</p>
-</section><section id="optioneel"><div class="header-wrapper"><h3 id="x2-4-optioneel"><bdi class="secno">2.4 </bdi>Optioneel</h3><a class="self-link" href="#optioneel" aria-label="Permalink for Section 2.4"></a></div>
+</section><section id="optioneel"><div class="header-wrapper"><h3 id="x4-4-optioneel"><bdi class="secno">4.4 </bdi>Optioneel</h3><a class="self-link" href="#optioneel" aria-label="Permalink for Section 4.4"></a></div>
 <p>De onderstaande secties (<em>Conformiteit</em> e.d.) zijn optioneel, zie <code>index.html</code>:</p>
 <pre><code aria-busy="false" class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"abstract"</span> <span class="hljs-attr">data-include-format</span>=<span class="hljs-string">"markdown"</span> <span class="hljs-attr">data-include</span>=<span class="hljs-string">"abstract.md"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
@@ -1507,13 +2598,13 @@ Dit hoofdstuk is toegevoegd met <code>class="informative"</code> in <code>config
 <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 </code></pre>
 </section></section>
-<section id="mermaid-diagram"><div class="header-wrapper"><h2 id="x3-mermaid-diagram"><bdi class="secno">3. </bdi>Mermaid diagram</h2><a class="self-link" href="#mermaid-diagram" aria-label="Permalink for Section 3."></a></div>
+<section id="mermaid-diagram"><div class="header-wrapper"><h2 id="x5-mermaid-diagram"><bdi class="secno">5. </bdi>Mermaid diagram</h2><a class="self-link" href="#mermaid-diagram" aria-label="Permalink for Section 5."></a></div>
 <figure id="Mermaidvoorbeeld">
 
 <pre><svg id="diagram-1" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="max-width: 128.234375px;" viewBox="0 0 128.234375 248"><style>
 #diagram-1 {font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;fill:#333;}#diagram-1 .error-icon{fill:#552222;}#diagram-1 .error-text{fill:#552222;stroke:#552222;}#diagram-1 .edge-thickness-normal{stroke-width:2px;}#diagram-1 .edge-thickness-thick{stroke-width:3.5px;}#diagram-1 .edge-pattern-solid{stroke-dasharray:0;}#diagram-1 .edge-pattern-dashed{stroke-dasharray:3;}#diagram-1 .edge-pattern-dotted{stroke-dasharray:2;}#diagram-1 .marker{fill:#333333;stroke:#333333;}#diagram-1 .marker.cross{stroke:#333333;}#diagram-1 svg{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;}#diagram-1 .label{font-family:"trebuchet ms",verdana,arial,sans-serif;color:#333;}#diagram-1 .cluster-label text{fill:#333;}#diagram-1 .cluster-label span{color:#333;}#diagram-1 .label text,#diagram-1 span{fill:#333;color:#333;}#diagram-1 .node rect,#diagram-1 .node circle,#diagram-1 .node ellipse,#diagram-1 .node polygon,#diagram-1 .node path{fill:#ECECFF;stroke:#9370DB;stroke-width:1px;}#diagram-1 .node .label{text-align:center;}#diagram-1 .node.clickable{cursor:pointer;}#diagram-1 .arrowheadPath{fill:#333333;}#diagram-1 .edgePath .path{stroke:#333333;stroke-width:2.0px;}#diagram-1 .flowchart-link{stroke:#333333;fill:none;}#diagram-1 .edgeLabel{background-color:#e8e8e8;text-align:center;}#diagram-1 .edgeLabel rect{opacity:0.5;background-color:#e8e8e8;fill:#e8e8e8;}#diagram-1 .cluster rect{fill:#ffffde;stroke:#aaaa33;stroke-width:1px;}#diagram-1 .cluster text{fill:#333;}#diagram-1 .cluster span{color:#333;}#diagram-1 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:12px;background:hsl(80, 100%, 96.2745098039%);border:1px solid #aaaa33;border-radius:2px;pointer-events:none;z-index:100;}#diagram-1 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}
-</style><g><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath LS-A LE-B" id="L-A-B" style="opacity: 1;"><path class="path" d="M48.55859375,47.77154964846383L44.354817708333336,52.64295804038653C40.151041666666664,57.514366432309224,31.743489583333332,67.25718321615462,27.539713541666668,76.29525827474397C23.3359375,85.33333333333333,23.3359375,93.66666666666667,23.3359375,97.83333333333333L23.3359375,102" marker-end="url(#arrowhead14)" style="fill:none"></path><defs><marker id="arrowhead14" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-A LE-C" id="L-A-C" style="opacity: 1;"><path class="path" d="M79.23046875,47.77154964846383L83.43424479166667,52.64295804038653C87.63802083333333,57.514366432309224,96.04557291666667,67.25718321615462,100.24934895833333,76.29525827474397C104.453125,85.33333333333333,104.453125,93.66666666666667,104.453125,97.83333333333333L104.453125,102" marker-end="url(#arrowhead15)" style="fill:none"></path><defs><marker id="arrowhead15" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-B LE-D" id="L-B-D" style="opacity: 1;"><path class="path" d="M23.3359375,146L23.3359375,150.16666666666666C23.3359375,154.33333333333334,23.3359375,162.66666666666666,27.465494791666668,171.6187357539568C31.595052083333332,180.57080484124694,39.854166666666664,190.14160968249382,43.983723958333336,194.92701210311728L48.11328125,199.71241452374073" marker-end="url(#arrowhead16)" style="fill:none"></path><defs><marker id="arrowhead16" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-C LE-D" id="L-C-D" style="opacity: 1;"><path class="path" d="M104.453125,146L104.453125,150.16666666666666C104.453125,154.33333333333334,104.453125,162.66666666666666,100.32356770833333,171.6187357539568C96.19401041666667,180.57080484124694,87.93489583333333,190.14160968249382,83.80533854166667,194.92701210311728L79.67578125,199.71241452374073" marker-end="url(#arrowhead17)" style="fill:none"></path><defs><marker id="arrowhead17" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-A-B" class="edgeLabel L-LS-A' L-LE-B"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-A-C" class="edgeLabel L-LS-A' L-LE-C"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-B-D" class="edgeLabel L-LS-B' L-LE-D"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-C-D" class="edgeLabel L-LS-C' L-LE-D"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="flowchart-A-8" transform="translate(63.89453125,30)" style="opacity: 1;"><rect rx="0" ry="0" x="-15.3359375" y="-22" width="30.671875" height="44" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-5.3359375,-12)"><foreignObject width="10.671875" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">A</div></foreignObject></g></g></g><g class="node default" id="flowchart-B-9" transform="translate(23.3359375,124)" style="opacity: 1;"><rect rx="0" ry="0" x="-15.3359375" y="-22" width="30.671875" height="44" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-5.3359375,-12)"><foreignObject width="10.671875" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">B</div></foreignObject></g></g></g><g class="node default" id="flowchart-C-11" transform="translate(104.453125,124)" style="opacity: 1;"><rect rx="0" ry="0" x="-15.78125" y="-22" width="31.5625" height="44" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-5.78125,-12)"><foreignObject width="11.5625" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">C</div></foreignObject></g></g></g><g class="node default" id="flowchart-D-13" transform="translate(63.89453125,218)" style="opacity: 1;"><rect rx="0" ry="0" x="-15.78125" y="-22" width="31.5625" height="44" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-5.78125,-12)"><foreignObject width="11.5625" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">D</div></foreignObject></g></g></g></g></g></g></svg></pre>
-<figcaption><a class="self-link" href="#Mermaidvoorbeeld">Figuur <bdi class="figno">2</bdi></a> <span class="fig-title">Mermaid voorbeeld</span></figcaption>
+</style><g><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath LS-A LE-B" id="L-A-B" style="opacity: 1;"><path class="path" d="M48.55859375,47.77154964846383L44.354817708333336,52.64295804038653C40.151041666666664,57.514366432309224,31.743489583333332,67.25718321615462,27.539713541666668,76.29525827474397C23.3359375,85.33333333333333,23.3359375,93.66666666666667,23.3359375,97.83333333333333L23.3359375,102" marker-end="url(#arrowhead31)" style="fill:none"></path><defs><marker id="arrowhead31" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-A LE-C" id="L-A-C" style="opacity: 1;"><path class="path" d="M79.23046875,47.77154964846383L83.43424479166667,52.64295804038653C87.63802083333333,57.514366432309224,96.04557291666667,67.25718321615462,100.24934895833333,76.29525827474397C104.453125,85.33333333333333,104.453125,93.66666666666667,104.453125,97.83333333333333L104.453125,102" marker-end="url(#arrowhead32)" style="fill:none"></path><defs><marker id="arrowhead32" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-B LE-D" id="L-B-D" style="opacity: 1;"><path class="path" d="M23.3359375,146L23.3359375,150.16666666666666C23.3359375,154.33333333333334,23.3359375,162.66666666666666,27.465494791666668,171.6187357539568C31.595052083333332,180.57080484124694,39.854166666666664,190.14160968249382,43.983723958333336,194.92701210311728L48.11328125,199.71241452374073" marker-end="url(#arrowhead33)" style="fill:none"></path><defs><marker id="arrowhead33" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-C LE-D" id="L-C-D" style="opacity: 1;"><path class="path" d="M104.453125,146L104.453125,150.16666666666666C104.453125,154.33333333333334,104.453125,162.66666666666666,100.32356770833333,171.6187357539568C96.19401041666667,180.57080484124694,87.93489583333333,190.14160968249382,83.80533854166667,194.92701210311728L79.67578125,199.71241452374073" marker-end="url(#arrowhead34)" style="fill:none"></path><defs><marker id="arrowhead34" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-A-B" class="edgeLabel L-LS-A' L-LE-B"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-A-C" class="edgeLabel L-LS-A' L-LE-C"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-B-D" class="edgeLabel L-LS-B' L-LE-D"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-C-D" class="edgeLabel L-LS-C' L-LE-D"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="flowchart-A-24" transform="translate(63.89453125,30)" style="opacity: 1;"><rect rx="0" ry="0" x="-15.3359375" y="-22" width="30.671875" height="44" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-5.3359375,-12)"><foreignObject width="10.671875" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">A</div></foreignObject></g></g></g><g class="node default" id="flowchart-B-25" transform="translate(23.3359375,124)" style="opacity: 1;"><rect rx="0" ry="0" x="-15.3359375" y="-22" width="30.671875" height="44" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-5.3359375,-12)"><foreignObject width="10.671875" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">B</div></foreignObject></g></g></g><g class="node default" id="flowchart-C-27" transform="translate(104.453125,124)" style="opacity: 1;"><rect rx="0" ry="0" x="-15.78125" y="-22" width="31.5625" height="44" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-5.78125,-12)"><foreignObject width="11.5625" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">C</div></foreignObject></g></g></g><g class="node default" id="flowchart-D-29" transform="translate(63.89453125,218)" style="opacity: 1;"><rect rx="0" ry="0" x="-15.78125" y="-22" width="31.5625" height="44" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-5.78125,-12)"><foreignObject width="11.5625" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">D</div></foreignObject></g></g></g></g></g></g></svg></pre>
+<figcaption><a class="self-link" href="#Mermaidvoorbeeld">Figuur <bdi class="figno">4</bdi></a> <span class="fig-title">Mermaid voorbeeld</span></figcaption>
 </figure></section>
 
  
@@ -1524,7 +2615,7 @@ Dit hoofdstuk is toegevoegd met <code>class="informative"</code> in <code>config
 
 
 
-<section id="conformance"><div class="header-wrapper"><h2 id="x4-conformiteit"><bdi class="secno">4. </bdi>Conformiteit</h2><a class="self-link" href="#conformance" aria-label="Permalink for Section 4."></a></div><p>Naast onderdelen die als niet normatief gemarkeerd zijn, zijn ook alle diagrammen, voorbeelden, en noten in dit document niet normatief. Verder is alles in dit document normatief.</p>
+<section id="conformance"><div class="header-wrapper"><h2 id="x6-conformiteit"><bdi class="secno">6. </bdi>Conformiteit</h2><a class="self-link" href="#conformance" aria-label="Permalink for Section 6."></a></div><p>Naast onderdelen die als niet normatief gemarkeerd zijn, zijn ook alle diagrammen, voorbeelden, en noten in dit document niet normatief. Verder is alles in dit document normatief.</p>
 <section id="tof">
 <section id="index" class="appendix"><div class="header-wrapper"><h4 id="index-0">Index</h4><a class="self-link" href="#index" aria-label="Permalink for this Appendix"></a></div>
 
@@ -1535,7 +2626,7 @@ Dit hoofdstuk is toegevoegd met <code>class="informative"</code> in <code>config
     <ul class="index">
     <li>
       <a class="index-term" href="#dfn-definitie">Definitie</a> 
-    <span class="print-only">§2.1</span></li>
+    <span class="print-only">§4.1</span></li>
   </ul>
   </section><section id="index-defined-elsewhere">
     <div class="header-wrapper"><h5 id="termen-gedefinieerd-door-verwijzing">Termen gedefinieerd door verwijzing</h5><a class="self-link" href="#index-defined-elsewhere" aria-label="Permalink for this Appendix"></a></div>
@@ -1544,9 +2635,13 @@ Dit hoofdstuk is toegevoegd met <code>class="informative"</code> in <code>config
   </ul>
   </section></section><h1>Lijst met figuren</h1><ul class="tof">
         <li class="tofline">
-    <a class="tocxref" href="#fig-onderschrift"><span class="self-link">Figuur <bdi class="figno">1</bdi></span> <span class="fig-title">Onderschrift</span></a>
+    <a class="tocxref" href="#fig-diagram-imgolf"><span class="self-link">Figuur <bdi class="figno">1</bdi></span> <span class="fig-title"> ‒ Diagram: IMGolf</span></a>
   </li><li class="tofline">
-    <a class="tocxref" href="#Mermaidvoorbeeld"><span class="self-link">Figuur <bdi class="figno">2</bdi></span> <span class="fig-title">Mermaid voorbeeld</span></a>
+    <a class="tocxref" href="#fig-diagram-imgolf-registratiegegevens"><span class="self-link">Figuur <bdi class="figno">2</bdi></span> <span class="fig-title"> ‒ Diagram: IMGolf-registratiegegevens</span></a>
+  </li><li class="tofline">
+    <a class="tocxref" href="#fig-onderschrift"><span class="self-link">Figuur <bdi class="figno">3</bdi></span> <span class="fig-title">Onderschrift</span></a>
+  </li><li class="tofline">
+    <a class="tocxref" href="#Mermaidvoorbeeld"><span class="self-link">Figuur <bdi class="figno">4</bdi></span> <span class="fig-title">Mermaid voorbeeld</span></a>
   </li>
       </ul></section></section><section id="references" class="appendix"><div class="header-wrapper"><h2 id="a-referenties"><bdi class="secno">A. </bdi>Referenties</h2><a class="self-link" href="#references" aria-label="Permalink for Appendix A."></a></div><section id="normatieve-referenties">
     <div class="header-wrapper"><h3 id="a-1-normatieve-referenties"><bdi class="secno">A.1 </bdi>Normatieve referenties</h3><a class="self-link" href="#normatieve-referenties" aria-label="Permalink for Appendix A.1"></a></div>
@@ -1557,7 +2652,7 @@ Dit hoofdstuk is toegevoegd met <code>class="informative"</code> in <code>config
     </dd></dl>
   </section></section><p role="navigation" id="back-to-top">
     <a href="#title"><abbr title="Terug naar boven">↑</abbr></a>
-  </p><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-definitie" aria-label="Links in this document to definition: Definitie">
+  </p><div class="mermaidTooltip" style="opacity: 0;"></div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-definitie" aria-label="Links in this document to definition: Definitie">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-definitie" aria-label="Permalink for definition: Definitie. Activate to close this dialog.">Permalink</a>
@@ -1566,7 +2661,7 @@ Dit hoofdstuk is toegevoegd met <code>class="informative"</code> in <code>config
       <p><b>Referenced in:</b></p>
       <ul>
     <li>
-      <a href="#ref-for-dfn-definitie-1" title="§ 2.3 Referenties">§ 2.3 Referenties</a> 
+      <a href="#ref-for-dfn-definitie-1" title="§ 4.3 Referenties">§ 4.3 Referenties</a> 
     </li>
   </ul>
     </div><script id="respec-dfn-panel">(() => {
