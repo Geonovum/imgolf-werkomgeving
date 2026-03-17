@@ -10,8 +10,8 @@
         "target": [
           ".sidelabel"
         ],
-        "html": "<div class=\"sidelabel\">Geonovum Praktijkrichtlijn - Document</div>",
-        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.98 (foreground color: #ffffff, background color: #80cc28, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+        "html": "<div class=\"sidelabel\">Geonovum Informatiemodel - Werkversie</div>",
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ffffff, background color: #ff0000, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
       }
     ]
   },
@@ -26,14 +26,14 @@
         "target": [
           ".tocline:nth-child(2) > ol > .tocline:nth-child(4) > ol > .tocline:nth-child(1) > ol > .tocline:nth-child(1) > .tocxref"
         ],
-        "html": "<a class=\"tocxref\" href=\"#detail_class_Golfbaan_Registratie\"><bdi class=\"secno\">1.2.4.1.1 </bdi>   Registratie</a>",
+        "html": "<a class=\"tocxref\" href=\"#detail_class_Golfbaan_IMGolfobject\"><bdi class=\"secno\">1.2.4.1.1 </bdi>   IMGolf-object</a>",
         "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
       },
       {
         "target": [
           ".tocline:nth-child(2) > ol > .tocline:nth-child(4) > ol > .tocline:nth-child(1) > ol > .tocline:nth-child(2) > .tocxref"
         ],
-        "html": "<a class=\"tocxref\" href=\"#detail_class_Golfbaan_Parcours\"><bdi class=\"secno\">1.2.4.1.2 </bdi>   Parcours</a>",
+        "html": "<a class=\"tocxref\" href=\"#detail_class_Golfbaan_Registratie\"><bdi class=\"secno\">1.2.4.1.2 </bdi>   Registratie</a>",
         "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
       },
       {
@@ -47,35 +47,35 @@
         "target": [
           ".tocline:nth-child(4) > ol > .tocline:nth-child(1) > ol > .tocline:nth-child(4) > .tocxref"
         ],
-        "html": "<a class=\"tocxref\" href=\"#detail_class_Golfbaan_IMGolfobject\"><bdi class=\"secno\">1.2.4.1.4 </bdi>   IMGolf-object</a>",
+        "html": "<a class=\"tocxref\" href=\"#detail_class_Golfbaan_Parcours\"><bdi class=\"secno\">1.2.4.1.4 </bdi>   Parcours</a>",
         "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
       },
       {
         "target": [
           ".tocline:nth-child(4) > ol > .tocline:nth-child(1) > ol > .tocline:nth-child(5) > .tocxref"
         ],
-        "html": "<a class=\"tocxref\" href=\"#detail_class_Golfbaan_Hindernis\"><bdi class=\"secno\">1.2.4.1.5 </bdi>   Hindernis</a>",
+        "html": "<a class=\"tocxref\" href=\"#detail_class_Golfbaan_ParcoursDeel\"><bdi class=\"secno\">1.2.4.1.5 </bdi>   Parcours­Deel</a>",
         "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
       },
       {
         "target": [
           ".tocline:nth-child(4) > ol > .tocline:nth-child(1) > ol > .tocline:nth-child(6) > .tocxref"
         ],
-        "html": "<a class=\"tocxref\" href=\"#detail_class_Golfbaan_ParcoursDeel\"><bdi class=\"secno\">1.2.4.1.6 </bdi>   Parcours­Deel</a>",
-        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
-      },
-      {
-        "target": [
-          ".tocxref[href=\"#detail_class_Golfbaan_Tee\"]"
-        ],
-        "html": "<a class=\"tocxref\" href=\"#detail_class_Golfbaan_Tee\"><bdi class=\"secno\">1.2.4.1.7 </bdi>   Tee</a>",
+        "html": "<a class=\"tocxref\" href=\"#detail_class_Golfbaan_Hindernis\"><bdi class=\"secno\">1.2.4.1.6 </bdi>   Hindernis</a>",
         "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
       },
       {
         "target": [
           ".tocxref[href=\"#detail_class_Golfbaan_Hole\"]"
         ],
-        "html": "<a class=\"tocxref\" href=\"#detail_class_Golfbaan_Hole\"><bdi class=\"secno\">1.2.4.1.8 </bdi>   Hole</a>",
+        "html": "<a class=\"tocxref\" href=\"#detail_class_Golfbaan_Hole\"><bdi class=\"secno\">1.2.4.1.7 </bdi>   Hole</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_Golfbaan_Tee\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_Golfbaan_Tee\"><bdi class=\"secno\">1.2.4.1.8 </bdi>   Tee</a>",
         "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
       }
     ]
